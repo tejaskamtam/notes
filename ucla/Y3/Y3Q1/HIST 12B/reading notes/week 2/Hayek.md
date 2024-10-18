@@ -1,0 +1,3 @@
+---
+annotation-target: "![[Hayek.pdf]]"
+---

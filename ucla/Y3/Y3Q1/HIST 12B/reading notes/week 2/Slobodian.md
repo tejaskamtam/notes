@@ -1,0 +1,3 @@
+---
+annotation-target: "![[Slobodian.pdf]]"
+---
