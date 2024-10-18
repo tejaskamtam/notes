@@ -1,2 +1,2 @@
-# tejaskamtam.github.io
+# Notes
 Hosting Markdown Notes
