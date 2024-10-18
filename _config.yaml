@@ -19,7 +19,7 @@ description: A second brain
 author: Tejas Kamtam
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://tejaskamtam.github.io/' # the base hostname & protocol for your site, e.g. http://example.com
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME"]
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME", ".ruby-version"]
 
 # Theme settings
 theme: "just-the-docs"
