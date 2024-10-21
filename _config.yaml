@@ -44,28 +44,13 @@ nav_external_links:
 #   schedules:
 #   announcements:
 # Default layouts for each collection type
-# defaults:
-#   - scope:
-#       path: ''
-#       type: staffers
-#     values:
-#       layout: staffer
-#       subpath: '/assets/images/'
-#   - scope:
-#       path: ''
-#       type: modules
-#     values:
-#       layout: module
-#   - scope:
-#       path: ''
-#       type: schedules
-#     values:
-#       layout: schedule
-#   - scope:
-#       path: ''
-#       type: announcements
-#     values:
-#       layout: announcement
+defaults:
+  - scope:
+      path: 'ucla'
+    values:
+      layout: note
+      subpath: '/Attachments/'
+      subpath: '/Excalidraw/'
 
 compress_html:
   clippings: all
