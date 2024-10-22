@@ -1,3 +1,4 @@
+*.ini
 _site/
 .sass-cache/
 .jekyll-cache/
