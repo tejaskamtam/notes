@@ -6,6 +6,12 @@ updated: Friday 27th October 2023 09:02:46
 course: HIST 12B
 📕 courses:
   - "[[HIST 12B - Neoliberalism]]"
+parent: discussion
+
+title: Letelier, Salvaor Allende, Walia
+
+layout: note
+
 ---
 ## Salvadore Allende
 ### Background

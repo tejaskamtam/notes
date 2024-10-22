@@ -5,6 +5,12 @@ created: 2023-05-15T10:59
 updated: 2023-06-15T10:08
 📕 courses:
   - "[[MGMT 170- Real Estate Finance]]"
+parent: MGMT 170
+
+title: 13 - Corporate Financing - ch. 15
+
+layout: note
+
 ---
 # Supplemental
 

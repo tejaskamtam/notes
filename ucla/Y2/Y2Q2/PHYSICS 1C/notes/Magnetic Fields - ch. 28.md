@@ -5,6 +5,12 @@ created: 2023-01-17T13:05
 updated: 2023-01-29T21:49
 📕 courses:
   - "[[Physics 1C- EM, Waves, & Optics]]"
+parent: PHYSICS 1C
+
+title: Magnetic Fields - ch. 28
+
+layout: note
+
 ---
 # Definitions
 

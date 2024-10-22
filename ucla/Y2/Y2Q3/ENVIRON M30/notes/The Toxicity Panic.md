@@ -2,6 +2,12 @@
 created: 2023-05-10T19:55
 updated: 2023-05-10T20:10
 URL: https://newrepublic.com/article/86339/toxins-plastic-shampoo-panic
+parent: ENVIRON M30
+
+title: The Toxicity Panic
+
+layout: note
+
 ---
 > The supposed connection made a bigger impression than the refutation
 > 

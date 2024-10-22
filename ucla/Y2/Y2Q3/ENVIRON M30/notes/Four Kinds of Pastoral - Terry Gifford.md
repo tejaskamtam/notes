@@ -5,6 +5,12 @@ created: 2023-04-16T01:39
 updated: 2023-04-16T01:40
 📕 courses:
   - "[[Environ M30- Environmental Literature]]"
+parent: ENVIRON M30
+
+title: Four Kinds of Pastoral - Terry Gifford
+
+layout: note
+
 ---
 # Supplemental
 

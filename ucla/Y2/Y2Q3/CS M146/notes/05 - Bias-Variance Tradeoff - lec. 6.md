@@ -5,6 +5,12 @@ created: 2023-04-19T15:11
 updated: 2023-05-08T09:03
 📕 courses:
   - "[[CS M146- Machine Learning]]"
+parent: CS M146
+
+title: 05 - Bias-Variance Tradeoff - lec. 6
+
+layout: note
+
 ---
 # Supplemental
 

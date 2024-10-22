@@ -6,6 +6,12 @@ updated: Wednesday 18th October 2023 14:41:35
 course: CS 131
 📕 courses:
   - "[[CS 131 - Programming Languages]]"
+parent: CS 131
+
+title: 3 - Python
+
+layout: note
+
 ---
 ## Variables
 - only makes `__name__` var when `main()` present to call `__name__==__main__`

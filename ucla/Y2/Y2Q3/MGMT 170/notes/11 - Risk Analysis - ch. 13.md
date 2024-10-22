@@ -5,6 +5,12 @@ created: 2023-05-01T00:33
 updated: 2023-06-15T10:08
 📕 courses:
   - "[[MGMT 170- Real Estate Finance]]"
+parent: MGMT 170
+
+title: 11 - Risk Analysis - ch. 13
+
+layout: note
+
 ---
 # Supplemental
 

@@ -4,6 +4,12 @@ course: GEOG 4
   - "[[GEOG 4 - Globalization]]"
 quarter: Y3Q1
 area: ucla
+parent: GEOG 4
+
+title: 2 - Regional Specialization
+
+layout: note
+
 ---
 # Regional Specialization
 - Adam Smith suggested the division of labor in the 1770s - (1) skills are specialized and (2) require education to hone:

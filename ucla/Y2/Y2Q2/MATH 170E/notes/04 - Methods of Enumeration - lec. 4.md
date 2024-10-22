@@ -6,6 +6,12 @@ updated: 2023-02-01T11:18
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: MATH 170E
+
+title: 04 - Methods of Enumeration - lec. 4
+
+layout: note
+
 ---
 # Definitions
 

@@ -1,5 +1,11 @@
 ---
 annotation-target: "![[North.pdf]]"
+parent: discussion
+
+title: North
+
+layout: note
+
 ---
 
 

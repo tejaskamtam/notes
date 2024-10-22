@@ -5,6 +5,12 @@ created: 2024-03-11 02:33
 updated: Monday 11th March 2024 02:33:36
 course: CS 162
 📕 courses:
+parent: CS 162
+
+title: 13 - Named Entity Recognition
+
+layout: note
+
 ---
 ## Named Entity Problem
 - anything that can be referred to with a proper name

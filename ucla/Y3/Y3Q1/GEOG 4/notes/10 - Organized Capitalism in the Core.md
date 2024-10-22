@@ -6,6 +6,12 @@ updated: Tuesday 31st October 2023 21:29:45
 course: GEOG 4
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: GEOG 4
+
+title: 10 - Organized Capitalism in the Core
+
+layout: note
+
 ---
 ## Background
 - 1890-1960s

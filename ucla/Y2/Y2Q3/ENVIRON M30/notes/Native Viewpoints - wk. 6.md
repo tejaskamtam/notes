@@ -5,6 +5,12 @@ created: 2023-05-11T09:37
 updated: 2023-05-12T10:10
 📕 courses:
   - "[[Environ M30- Environmental Literature]]"
+parent: ENVIRON M30
+
+title: Native Viewpoints - wk. 6
+
+layout: note
+
 ---
 # Supplemental
 

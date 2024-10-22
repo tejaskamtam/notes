@@ -5,6 +5,12 @@ created: 2023-06-05T14:16
 updated: 2023-07-10T21:18
 📕 courses:
   - "[[CS M146- Machine Learning]]"
+parent: CS M146
+
+title: 14 - Deep Learning - lec. 19
+
+layout: note
+
 ---
 # Supplemental
 

@@ -6,6 +6,12 @@ updated: Thursday 7th December 2023 19:13:27
 course: HIST 12B
 📕 courses:
   - "[[HIST 12B - Neoliberalism]]"
+parent: discussion
+
+title: Week 10
+
+layout: note
+
 ---
 ## Harsha Walia, *Border and Rule* Ch. 11 - Refusing Reactionary Neoliberalism, pg. 196-204
 - this chapter focuses on the characteristics of Nationalism through the lens of their perspectives on race and immigration

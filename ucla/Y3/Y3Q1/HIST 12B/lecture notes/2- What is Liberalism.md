@@ -5,6 +5,12 @@ created: 2023-10-03T20:38
 updated: 2023-10-03T22:30
 📕 courses:
   - "[[HIST 12B - Neoliberalism]]"
+parent: HIST 12B
+
+title: 2- What is Liberalism
+
+layout: note
+
 ---
 # Supplemental
 

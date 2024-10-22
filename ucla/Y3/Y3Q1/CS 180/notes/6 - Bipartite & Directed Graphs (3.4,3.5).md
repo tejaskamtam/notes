@@ -6,6 +6,12 @@ updated: Tuesday 17th October 2023 08:03:03
 course: CS 180
 📕 courses:
   - "[[CS 180 - Algorithms]]"
+parent: CS 180
+
+title: 6 - Bipartite & Directed Graphs (3.4,3.5)
+
+layout: note
+
 ---
 ## Bipartite Graphs
 - a graph where we can differentiate 2 sets of vertices

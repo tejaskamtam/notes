@@ -6,6 +6,12 @@ updated: 2022-10-27T17:18
 📕 courses:
   - "[[ECON 1- Microeconomics]]"
 tags: econ
+parent: ECON 1
+
+title: 4 - Supply and Demand - Ch. 4
+
+layout: note
+
 ---
 # Recall
 

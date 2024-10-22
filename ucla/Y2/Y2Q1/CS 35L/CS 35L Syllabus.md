@@ -6,6 +6,12 @@ updated: 2022-10-27T19:00
 📕 courses:
   - "[[CS 35L- Software Construction]]"
 tags: cs
+parent: Y2Q1
+
+title: CS 35L Syllabus
+
+layout: note
+
 ---
 📌
 

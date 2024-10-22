@@ -4,6 +4,12 @@ quarter: Y3Q1
 created: 2024-03-19 16:16
 updated: Tuesday 19th March 2024 16:16:49
 course: CS 174A
+parent: CS 174A
+
+title: 16 - Misc Rendering - Procedural, Particle, Volumetric
+
+layout: note
+
 ---
 ## Opacity
 - introduce oopacity intensity 0-1 as $\alpha$

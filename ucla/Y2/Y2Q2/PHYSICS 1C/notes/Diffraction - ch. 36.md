@@ -5,6 +5,12 @@ created: 2023-03-18T20:06
 updated: 2023-03-19T22:14
 📕 courses:
   - "[[Physics 1C- EM, Waves, & Optics]]"
+parent: PHYSICS 1C
+
+title: Diffraction - ch. 36
+
+layout: note
+
 ---
 # Definitions
 

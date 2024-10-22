@@ -5,6 +5,12 @@ created: 2023-03-18T20:58
 updated: 2023-03-19T20:25
 📕 courses:
   - "[[Physics 1C- EM, Waves, & Optics]]"
+parent: PHYSICS 1C
+
+title: Relativity - ch. 37
+
+layout: note
+
 ---
 # Definitions
 

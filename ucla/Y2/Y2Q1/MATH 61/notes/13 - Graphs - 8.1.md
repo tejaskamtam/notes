@@ -6,6 +6,12 @@ updated: 2022-11-08T22:30
 📕 courses:
   - "[[Math 61- Discrete Structures]]"
 tags: math
+parent: MATH 61
+
+title: 13 - Graphs - 8.1
+
+layout: note
+
 ---
 # Notes
 

@@ -5,6 +5,12 @@ created: 2024-02-28 15:14
 updated: Wednesday 28th February 2024 15:14:47
 course: CS 161
 📕 courses:
+parent: CS 161
+
+title: 10 - Bayesian Networks
+
+layout: note
+
 ---
 ## Background
 - Monotonicity of logic prevents adaptation of the knowledge base

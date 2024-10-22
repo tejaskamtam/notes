@@ -6,6 +6,12 @@ updated: 2023-03-20T16:10
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: MATH 170E
+
+title: Central Limit Theorem - lec. 26
+
+layout: note
+
 ---
 # Definitions
 

@@ -5,6 +5,12 @@ created: 2023-04-05T20:51
 updated: 2023-04-06T09:47
 📕 courses:
   - "[[Environ M30- Environmental Literature]]"
+parent: ENVIRON M30
+
+title: The End of Nature - Bill McKibben
+
+layout: note
+
 ---
 # Definitions
 

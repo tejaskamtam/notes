@@ -5,6 +5,12 @@ created: 2023-05-03T13:57
 updated: 2023-06-13T22:34
 📕 courses:
   - "[[CS M146- Machine Learning]]"
+parent: CS M146
+
+title: 08 - SVM - lec. 11, 12, 13
+
+layout: note
+
 ---
 # Supplemental
 

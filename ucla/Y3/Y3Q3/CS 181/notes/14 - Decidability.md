@@ -4,6 +4,12 @@ quarter: Y3Q1
 created: 2024-06-05 14:13
 updated: Wednesday 5th June 2024 14:13:45
 course: CS 181
+parent: CS 181
+
+title: 14 - Decidability
+
+layout: note
+
 ---
 ## Is a Language Decidable?
 - lang $L$ is decidable $\iff$ $L,\overline L$ are both recognizable

@@ -6,6 +6,12 @@ updated: 2022-11-14T03:31
 📕 courses:
   - "[[ECON 1- Microeconomics]]"
 tags: econ
+parent: ECON 1
+
+title: 9 - International Trade - Ch. 9
+
+layout: note
+
 ---
 # Definitions
 

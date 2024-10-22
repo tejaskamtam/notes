@@ -5,6 +5,12 @@ created: 2024-01-10 14:14
 updated: Wednesday 10th January 2024 14:14:00
 course: CS 161
 📕 courses:
+parent: CS 161
+
+title: 2 - Search Problems and God's Algorithm
+
+layout: note
+
 ---
 ## General Search Problems
 ### Types of Problems

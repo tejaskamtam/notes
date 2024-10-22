@@ -5,6 +5,12 @@ created: 2023-06-04T23:26
 updated: 2023-06-15T10:08
 📕 courses:
   - "[[MGMT 170- Real Estate Finance]]"
+parent: MGMT 170
+
+title: 18 - REITs - ch. 21
+
+layout: note
+
 ---
 # Supplemental
 

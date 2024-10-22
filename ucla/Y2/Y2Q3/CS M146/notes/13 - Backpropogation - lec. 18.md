@@ -5,6 +5,12 @@ created: 2023-05-31T13:59
 updated: 2023-06-05T14:12
 📕 courses:
   - "[[CS M146- Machine Learning]]"
+parent: CS M146
+
+title: 13 - Backpropogation - lec. 18
+
+layout: note
+
 ---
 # Supplemental
 

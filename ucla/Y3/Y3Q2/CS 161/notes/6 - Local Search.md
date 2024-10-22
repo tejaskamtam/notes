@@ -5,6 +5,12 @@ created: 2024-01-31 14:47
 updated: Wednesday 31st January 2024 14:47:10
 course: CS 161
 📕 courses:
+parent: CS 161
+
+title: 6 - Local Search
+
+layout: note
+
 ---
 ## Intuition
 - path to goal sometimes does not matter, only the solution

@@ -5,6 +5,12 @@ created: 2024-01-30 19:09
 updated: Tuesday 30th January 2024 19:09:02
 course: CS 174A
 📕 courses:
+parent: CS 174A
+
+title: 4 - Camera, Projections, and Viewport
+
+layout: note
+
 ---
 ## Eye Space
 - params

@@ -6,6 +6,12 @@ updated: Tuesday 14th November 2023 08:02:12
 course: CS 180
 📕 courses:
   - "[[CS 180 - Algorithms]]"
+parent: CS 180
+
+title: 12 - Dynamic Programming
+
+layout: note
+
 ---
 ## Dynamic Programming (DP)
 - used when divide and conquer crates overlapping divisions

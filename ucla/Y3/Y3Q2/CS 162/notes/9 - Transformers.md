@@ -5,6 +5,12 @@ created: 2024-02-09 02:15
 updated: Friday 9th February 2024 02:15:54
 course: CS 162
 📕 courses:
+parent: CS 162
+
+title: 9 - Transformers
+
+layout: note
+
 ---
 ## Seq2Seq Models
 - input one sequence output another sequence

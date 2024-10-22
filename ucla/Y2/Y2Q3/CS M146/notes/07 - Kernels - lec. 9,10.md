@@ -5,6 +5,12 @@ created: 2023-05-01T13:59
 updated: 2023-05-03T15:37
 📕 courses:
   - "[[CS M146- Machine Learning]]"
+parent: CS M146
+
+title: 07 - Kernels - lec. 9,10
+
+layout: note
+
 ---
 # Supplemental
 

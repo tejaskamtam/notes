@@ -6,6 +6,12 @@ updated: Thursday 26th October 2023 18:37:58
 course: HIST 12B
 📕 courses:
   - "[[HIST 12B - Neoliberalism]]"
+parent: HIST 12B
+
+title: 6 - Social Wage and Rebellion
+
+layout: note
+
 ---
 ## Social Wage
 - the govt expenditure on welfare

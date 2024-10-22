@@ -5,6 +5,12 @@ created: 2024-01-16 16:11
 updated: Tuesday 16th January 2024 16:11:14
 course: CS M151B
 📕 courses:
+parent: CS M151B
+
+title: 3 - Addressing
+
+layout: note
+
 ---
 ## Addressing/Indexing
 ### Register File

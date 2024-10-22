@@ -6,6 +6,12 @@ updated: 2023-03-15T20:05
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: MATH 170E
+
+title: Discrete Conditional Distribution - lec. 20
+
+layout: note
+
 ---
 # Examples
 

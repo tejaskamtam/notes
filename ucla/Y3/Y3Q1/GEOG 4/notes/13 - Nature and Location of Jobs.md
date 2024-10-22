@@ -6,6 +6,12 @@ updated: Monday 13th November 2023 15:34:10
 course: GEOG 4
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: GEOG 4
+
+title: 13 - Nature and Location of Jobs
+
+layout: note
+
 ---
 ## 1970s - Present
 - increased off-shoring of capital and labor in manufacturing

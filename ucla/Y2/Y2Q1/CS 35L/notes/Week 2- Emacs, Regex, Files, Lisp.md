@@ -6,6 +6,12 @@ updated: 2022-10-27T19:04
 📕 courses:
   - "[[CS 35L- Software Construction]]"
 tags: cs
+parent: CS 35L
+
+title: Week 2- Emacs, Regex, Files, Lisp
+
+layout: note
+
 ---
 **Week 2 Lecture Notes**
 

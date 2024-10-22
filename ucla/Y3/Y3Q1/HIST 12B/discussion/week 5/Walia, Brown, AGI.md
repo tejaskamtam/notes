@@ -6,6 +6,12 @@ updated: Friday 3rd November 2023 09:16:26
 course: HIST 12B
 📕 courses:
   - "[[HIST 12B - Neoliberalism]]"
+parent: discussion
+
+title: Walia, Brown, AGI
+
+layout: note
+
 ---
 ## Wendy Brown - “American Nightmare: Neoliberalism, Neo-conservatism, and De-Democratization,”
 - Neoliberalism juxtaposes neoconservatism - but when they intersect, it can be bad for govt

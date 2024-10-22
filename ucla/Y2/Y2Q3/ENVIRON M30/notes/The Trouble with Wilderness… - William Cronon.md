@@ -5,6 +5,12 @@ created: 2023-04-12T18:23
 updated: 2023-04-14T10:50
 📕 courses:
   - "[[Environ M30- Environmental Literature]]"
+parent: ENVIRON M30
+
+title: The Trouble with Wilderness… - William Cronon
+
+layout: note
+
 ---
 # Supplemental
 

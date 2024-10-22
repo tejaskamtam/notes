@@ -6,6 +6,12 @@ updated: Friday 3rd November 2023 12:14:11
 course: CS 180
 📕 courses:
   - "[[CS 180 - Algorithms]]"
+parent: CS 180
+
+title: 11 - Divide and Conquer
+
+layout: note
+
 ---
 ## Merge Sort
 ### Algorithm

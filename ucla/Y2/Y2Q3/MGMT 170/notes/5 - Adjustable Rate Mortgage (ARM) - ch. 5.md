@@ -5,6 +5,12 @@ created: 2023-04-11T23:16
 updated: 2023-06-15T10:07
 📕 courses:
   - "[[MGMT 170- Real Estate Finance]]"
+parent: MGMT 170
+
+title: 5 - Adjustable Rate Mortgage (ARM) - ch. 5
+
+layout: note
+
 ---
 # Supplemental
 

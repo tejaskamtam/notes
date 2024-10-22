@@ -5,6 +5,12 @@ created: 2024-01-17 08:02
 updated: Wednesday 17th January 2024 08:02:21
 course: CS M151B
 📕 courses:
+parent: CS 162
+
+title: 3 - Lexical Semantics
+
+layout: note
+
 ---
 ## Issues with One-Hot
 - one-hot encoded vectors are orthogonal across the vocab

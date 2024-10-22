@@ -5,6 +5,12 @@ created: 2024-02-22 16:08
 updated: Thursday 22nd February 2024 16:08:36
 course: CS M151B
 📕 courses:
+parent: CS M151B
+
+title: 13 - ROB
+
+layout: note
+
 ---
 ## Modern processor pipeline so far
 ![[Pasted image 20240222163137.png]]

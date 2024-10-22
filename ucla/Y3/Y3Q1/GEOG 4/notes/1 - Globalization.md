@@ -5,6 +5,12 @@ created: 2023-10-02T09:55
 updated: 2023-10-02T16:05
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: GEOG 4
+
+title: 1 - Globalization
+
+layout: note
+
 ---
 # Supplemental
 

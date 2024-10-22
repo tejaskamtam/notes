@@ -6,6 +6,12 @@ updated: 2022-11-16T22:55
 📕 courses:
   - "[[ECON 1- Microeconomics]]"
 tags: econ
+parent: ECON 1
+
+title: 5 - Elasticity - Ch. 5
+
+layout: note
+
 ---
 # Notes
 

@@ -5,6 +5,12 @@ created: 2023-04-24T13:58
 updated: 2023-04-26T15:42
 📕 courses:
   - "[[CS M146- Machine Learning]]"
+parent: CS M146
+
+title: 06 - Decision Trees - lec. 7,8
+
+layout: note
+
 ---
 # Supplemental
 

@@ -4,6 +4,12 @@ quarter: Y3Q1
 created: 2024-03-19 02:35
 updated: Tuesday 19th March 2024 02:35:45
 course: CS 174A
+parent: CS 174A
+
+title: 14 - Ray Casting HSR
+
+layout: note
+
 ---
 ## Backward Ray casting
 - a WS or ES algo

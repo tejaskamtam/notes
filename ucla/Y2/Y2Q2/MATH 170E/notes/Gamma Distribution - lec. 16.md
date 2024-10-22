@@ -6,6 +6,12 @@ updated: 2023-02-17T18:59
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: MATH 170E
+
+title: Gamma Distribution - lec. 16
+
+layout: note
+
 ---
 # Definitions
 

@@ -6,6 +6,12 @@ updated: Thursday 7th December 2023 07:55:51
 course: CS 180
 📕 courses:
   - "[[CS 180 - Algorithms]]"
+parent: CS 180
+
+title: 2 - Practice Final 2
+
+layout: note
+
 ---
 ## Problem 1
 

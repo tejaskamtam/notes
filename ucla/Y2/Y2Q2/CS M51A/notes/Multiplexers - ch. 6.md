@@ -6,6 +6,12 @@ updated: 2023-01-31T14:10
 📕 courses:
   - "[[CS M51A- Digital Logic]]"
 tags: cs
+parent: CS M51A
+
+title: Multiplexers - ch. 6
+
+layout: note
+
 ---
 # Definitions
 

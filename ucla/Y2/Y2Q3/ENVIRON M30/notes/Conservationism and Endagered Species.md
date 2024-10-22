@@ -5,6 +5,12 @@ created: 2023-05-23T10:02
 updated: 2023-05-23T10:24
 📕 courses:
   - "[[Environ M30- Environmental Literature]]"
+parent: ENVIRON M30
+
+title: Conservationism and Endagered Species
+
+layout: note
+
 ---
 # Supplemental
 

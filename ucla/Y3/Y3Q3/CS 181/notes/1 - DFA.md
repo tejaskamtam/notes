@@ -4,6 +4,12 @@ quarter: Y3Q1
 created: 2024-04-01 15:06
 updated: Monday 1st April 2024 15:06:02
 course: CS 181
+parent: CS 181
+
+title: 1 - DFA
+
+layout: note
+
 ---
 ## Basic Notions
 - Alphabet - any finite, nonempty set of symbols; usually bits

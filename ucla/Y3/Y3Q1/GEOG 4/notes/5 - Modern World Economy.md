@@ -6,6 +6,12 @@ updated: Monday 16th October 2023 09:40:10
 course: GEOG 4
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: GEOG 4
+
+title: 5 - Modern World Economy
+
+layout: note
+
 ---
 ## Introduction
 - Diminishing world empires and feudalism gave way to colonialism and mercantilism

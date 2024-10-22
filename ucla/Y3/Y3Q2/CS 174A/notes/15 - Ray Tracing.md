@@ -4,6 +4,12 @@ quarter: Y3Q1
 created: 2024-03-19 14:54
 updated: Tuesday 19th March 2024 14:54:41
 course: CS 174A
+parent: CS 174A
+
+title: 15 - Ray Tracing
+
+layout: note
+
 ---
 ## Transmission and Reflected Rays
 - recursive ray casting, we can decide recursive stack size

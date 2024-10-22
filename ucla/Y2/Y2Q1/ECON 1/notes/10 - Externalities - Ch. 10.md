@@ -6,6 +6,12 @@ updated: 2022-12-02T16:17
 📕 courses:
   - "[[ECON 1- Microeconomics]]"
 tags: econ
+parent: ECON 1
+
+title: 10 - Externalities - Ch. 10
+
+layout: note
+
 ---
 # Definitions
 

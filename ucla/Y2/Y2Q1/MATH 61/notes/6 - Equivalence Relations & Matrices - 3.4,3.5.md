@@ -6,6 +6,12 @@ updated: 2022-10-27T17:19
 📕 courses:
   - "[[Math 61- Discrete Structures]]"
 tags: math
+parent: MATH 61
+
+title: 6 - Equivalence Relations & Matrices - 3.4,3.5
+
+layout: note
+
 ---
 # Recall
 

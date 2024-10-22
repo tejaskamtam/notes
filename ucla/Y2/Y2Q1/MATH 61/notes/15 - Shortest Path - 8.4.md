@@ -6,6 +6,12 @@ updated: 2022-10-31T11:24
 📕 courses:
   - "[[Math 61- Discrete Structures]]"
 tags: math
+parent: MATH 61
+
+title: 15 - Shortest Path - 8.4
+
+layout: note
+
 ---
 # Definitions
 

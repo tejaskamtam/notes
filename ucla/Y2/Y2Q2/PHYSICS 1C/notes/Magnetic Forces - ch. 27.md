@@ -5,6 +5,12 @@ created: 2023-01-09T16:47
 updated: 2023-01-29T20:58
 📕 courses:
   - "[[Physics 1C- EM, Waves, & Optics]]"
+parent: PHYSICS 1C
+
+title: Magnetic Forces - ch. 27
+
+layout: note
+
 ---
 # Definitions and Examples
 

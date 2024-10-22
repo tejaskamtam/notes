@@ -6,6 +6,12 @@ updated: 2022-12-06T22:42
 📕 courses:
   - "[[Math 61- Discrete Structures]]"
 tags: math
+parent: MATH 61
+
+title: 21 - Isomorphism of Trees - 9.8
+
+layout: note
+
 ---
 # Definitions
 

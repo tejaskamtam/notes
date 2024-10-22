@@ -6,6 +6,12 @@ updated: Monday 27th November 2023 02:16:34
 course: GEOG 4
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: GEOG 4
+
+title: 14 - Changing logic for production location
+
+layout: note
+
 ---
 ## Location of Jobs
 - Domestic job loci -> GDP growth

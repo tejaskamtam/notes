@@ -5,6 +5,12 @@ created: 2024-02-26 08:03
 updated: Monday 26th February 2024 08:03:58
 course: CS 162
 📕 courses:
+parent: CS 162
+
+title: 12 - Part of Speech Tagging
+
+layout: note
+
 ---
 ## Background
 - effort to add is high so usually not used

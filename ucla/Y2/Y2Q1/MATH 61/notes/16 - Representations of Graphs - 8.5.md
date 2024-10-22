@@ -6,6 +6,12 @@ updated: 2022-11-06T22:09
 📕 courses:
   - "[[Math 61- Discrete Structures]]"
 tags: math
+parent: MATH 61
+
+title: 16 - Representations of Graphs - 8.5
+
+layout: note
+
 ---
 # Definitions
 

@@ -5,6 +5,12 @@ created: 2024-01-30 17:23
 updated: Tuesday 30th January 2024 17:23:58
 course: CS M151B
 📕 courses:
+parent: CS M151B
+
+title: 7 - RISC-V Circuitry
+
+layout: note
+
 ---
 ## Instructions
 - Reduced ISA ![[Pasted image 20240125174945.png]]

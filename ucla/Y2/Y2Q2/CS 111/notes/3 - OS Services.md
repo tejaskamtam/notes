@@ -6,6 +6,12 @@ updated: 2023-01-17T09:15
 📕 courses:
   - "[[CS 111- Operating Systems]]"
 tags: cs
+parent: CS 111
+
+title: 3 - OS Services
+
+layout: note
+
 ---
 # Definitions
 

@@ -6,6 +6,12 @@ updated: 2023-02-01T11:29
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: MATH 170E
+
+title: Expected Value - lec. 8
+
+layout: note
+
 ---
 # Definitions
 

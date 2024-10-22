@@ -6,6 +6,12 @@ updated: 2022-10-27T19:02
 📕 courses:
   - "[[CS 35L- Software Construction]]"
 tags: cs
+parent: CS 35L
+
+title: Week 1- OS, Shell, Emacs
+
+layout: note
+
 ---
 **Week 1 Lecture Notes**
 

@@ -6,6 +6,12 @@ updated: Wednesday 6th December 2023 01:45:15
 course: GEOG 4
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: GEOG 4
+
+title: 18 - Service Sector and Semi-Periphery
+
+layout: note
+
 ---
 ## Background
 - most core jobs are service sector as manufacturing is off-shored and outsourced

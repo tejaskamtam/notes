@@ -6,6 +6,12 @@ updated: 2022-11-01T01:16
 📕 courses:
   - "[[Math 61- Discrete Structures]]"
 tags: math
+parent: MATH 61
+
+title: 14 - Paths and Cycles - 8.2, 8.3
+
+layout: note
+
 ---
 # Definitions
 

@@ -1,8 +1,7 @@
 ---
-title: "CS M148"
-layout: note
-parent: Y4Q1
-nav_order: 4
+title: CS M148
+layout: default
+parent: UCLA
 ---
 
 # CS M148 - Data Science

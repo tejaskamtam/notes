@@ -5,6 +5,12 @@ created: 2024-01-22 14:37
 updated: Monday 22nd January 2024 14:38:10
 course: CS 161
 📕 courses:
+parent: CS 161
+
+title: 4 - Informed Heuristic Search
+
+layout: note
+
 ---
 ## Heuristic Search 
 - generally we want to move in a specific direction to get to a city from a city

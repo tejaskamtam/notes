@@ -5,6 +5,12 @@ created: 2023-05-17T14:06
 updated: 2023-05-17T15:20
 📕 courses:
   - "[[CS M146- Machine Learning]]"
+parent: CS M146
+
+title: 10 - Clustering - lec. 15
+
+layout: note
+
 ---
 # Supplemental
 

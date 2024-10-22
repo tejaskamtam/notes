@@ -4,6 +4,12 @@ quarter: Y3Q1
 created: 2024-03-18 20:53
 updated: Monday 18th March 2024 20:53:25
 course: CS 174A
+parent: CS 174A
+
+title: 9 - Geometry Review
+
+layout: note
+
 ---
 ## Plane Equations
 ![[Pasted image 20240318205400.png]]

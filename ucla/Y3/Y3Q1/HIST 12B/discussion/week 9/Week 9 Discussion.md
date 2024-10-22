@@ -6,6 +6,12 @@ updated: Friday 1st December 2023 09:02:10
 course: HIST 12B
 📕 courses:
   - "[[HIST 12B - Neoliberalism]]"
+parent: discussion
+
+title: Week 9 Discussion
+
+layout: note
+
 ---
 ## Megan French-Marcelin, “Gentrification Ground Zero,” 
 ### Reading

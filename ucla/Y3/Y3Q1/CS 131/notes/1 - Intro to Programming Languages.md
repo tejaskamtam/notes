@@ -6,6 +6,12 @@ updated: 2023-10-02T16:05
 📕 courses:
   - "[[CS 131 - Programming Languages]]"
 quarter: Y3Q1
+parent: CS 131
+
+title: 1 - Intro to Programming Languages
+
+layout: note
+
 ---
 # Supplemental
 

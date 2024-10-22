@@ -6,6 +6,12 @@ updated: Tuesday 31st October 2023 08:08:36
 course: CS 180
 📕 courses:
   - "[[CS 180 - Algorithms]]"
+parent: CS 180
+
+title: 10 - Union Find (4.6)
+
+layout: note
+
 ---
 ## Union Find
 - given a bunch of $N$ elements uniquely partitioned into $K$ sets

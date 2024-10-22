@@ -5,6 +5,12 @@ created: 2023-02-13T12:18
 updated: 2023-02-27T00:38
 📕 courses:
   - "[[Physics 1C- EM, Waves, & Optics]]"
+parent: PHYSICS 1C
+
+title: Propagation of Light - ch. 33
+
+layout: note
+
 ---
 # Definitions
 

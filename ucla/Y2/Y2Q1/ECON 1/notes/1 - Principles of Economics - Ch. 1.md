@@ -6,6 +6,12 @@ updated: 2022-10-27T17:18
 📕 courses:
   - "[[ECON 1- Microeconomics]]"
 tags: econ
+parent: ECON 1
+
+title: 1 - Principles of Economics - Ch. 1
+
+layout: note
+
 ---
 # Recall
 

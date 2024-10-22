@@ -5,6 +5,12 @@ created: 2023-05-23T22:26
 updated: 2023-06-13T17:06
 📕 courses:
   - "[[CS M146- Machine Learning]]"
+parent: CS M146
+
+title: 11 - Dimensionality Reduction (PCA) - lec. 16
+
+layout: note
+
 ---
 # Supplemental
 

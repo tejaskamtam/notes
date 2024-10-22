@@ -6,6 +6,12 @@ updated: 2023-01-27T01:54
 📕 courses:
   - "[[Math 61- Discrete Structures]]"
 tags: math
+parent: MATH 61
+
+title: 9 - Gen. Perms. Combs. and Binomial Coefficients - 6.3,6.7
+
+layout: note
+
 ---
 # Recall
 

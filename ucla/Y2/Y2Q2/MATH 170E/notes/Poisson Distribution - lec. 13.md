@@ -6,6 +6,12 @@ updated: 2023-02-16T16:50
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: MATH 170E
+
+title: Poisson Distribution - lec. 13
+
+layout: note
+
 ---
 # Definitions
 

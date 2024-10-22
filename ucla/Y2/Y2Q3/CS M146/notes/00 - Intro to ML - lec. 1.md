@@ -5,6 +5,12 @@ created: 2023-04-03T14:42
 updated: 2023-05-08T00:22
 📕 courses:
   - "[[CS M146- Machine Learning]]"
+parent: CS M146
+
+title: 00 - Intro to ML - lec. 1
+
+layout: note
+
 ---
 # Definitions
 

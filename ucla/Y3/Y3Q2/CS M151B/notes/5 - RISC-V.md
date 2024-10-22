@@ -5,6 +5,12 @@ created: 2024-01-23 16:36
 updated: Tuesday 23rd January 2024 16:36:20
 course: CS M151B
 📕 courses:
+parent: CS M151B
+
+title: 5 - RISC-V
+
+layout: note
+
 ---
 ## RISC-V ISA Background
 - open source, free to use - will do 32-bit int

@@ -5,6 +5,12 @@ created: 2024-02-06 12:24
 updated: Tuesday 6th February 2024 12:24:55
 course: CS 162
 📕 courses:
+parent: CS 162
+
+title: 7 - Log Linear and Neural LMs
+
+layout: note
+
 ---
 ## Log-Linear Language Models
 - we want to create a conditional distribution $p(y|x)$ from a scoring function, we define as $$\text{score($x$,$y$)}=\sum_k\theta_k\cdot f_k(x,y)=\vec\theta\cdot\vec f(x,y)$$ where $\theta$ is the weight of feature $k$ and the feature function can be many representations (3.g., counts, binary, strength)

@@ -6,6 +6,12 @@ updated: 2022-10-27T17:18
 📕 courses:
   - "[[MGMT 1A- Accounting]]"
 tags: accounting
+parent: Y2Q1
+
+title: MGMT 1A Syllabus
+
+layout: note
+
 ---
 📌
 

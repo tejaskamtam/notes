@@ -1,8 +1,7 @@
 ---
-title: "CS 130"
-layout: note
-parent: Y4Q1
-nav_order: 2
+title: CS 130
+layout: default
+parent: UCLA
 ---
 
 # CS 130 - Software Engineering

@@ -1,5 +1,11 @@
 ---
 annotation-target: "![[Walia - Textbook.epub]]"
+parent: HIST 12B
+
+title: Walia - Textbook
+
+layout: note
+
 ---
 
 

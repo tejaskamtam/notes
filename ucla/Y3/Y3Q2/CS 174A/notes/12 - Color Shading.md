@@ -4,6 +4,12 @@ quarter: Y3Q1
 created: 2024-03-19 01:22
 updated: Tuesday 19th March 2024 01:22:21
 course: CS 174A
+parent: CS 174A
+
+title: 12 - Color Shading
+
+layout: note
+
 ---
 ## Flat Shading
 - apply same color across a tesselated polygonal surface of an object

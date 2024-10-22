@@ -5,6 +5,12 @@ created: 2023-06-12T10:39
 updated: 2023-06-15T10:35
 📕 courses:
   - "[[MGMT 170- Real Estate Finance]]"
+parent: MGMT 170
+
+title: 20 - Excel Formulas
+
+layout: note
+
 ---
 # Supplemental
 

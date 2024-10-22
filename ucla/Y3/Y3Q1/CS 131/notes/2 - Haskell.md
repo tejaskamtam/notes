@@ -4,6 +4,12 @@ course: CS 131
   - "[[CS 131 - Programming Languages]]"
 quarter: Y3Q1
 area: ucla
+parent: CS 131
+
+title: 2 - Haskell
+
+layout: note
+
 ---
 # Functional Programming
 - every function must take an argument

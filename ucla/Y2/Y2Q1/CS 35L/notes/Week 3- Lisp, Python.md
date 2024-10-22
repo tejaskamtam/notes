@@ -6,6 +6,12 @@ updated: 2022-10-27T19:12
 📕 courses:
   - "[[CS 35L- Software Construction]]"
 tags: cs
+parent: CS 35L
+
+title: Week 3- Lisp, Python
+
+layout: note
+
 ---
 **Week 3 Lecture Notes**
 

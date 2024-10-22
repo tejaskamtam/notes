@@ -6,6 +6,12 @@ updated: Sunday 3rd December 2023 21:45:02
 course: GEOG 4
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: GEOG 4
+
+title: 16 - Plantation to Agribusiness
+
+layout: note
+
 ---
 ## Trend from 1970 w/ golbalization
 1. Capitalization of export agri and resource extraction

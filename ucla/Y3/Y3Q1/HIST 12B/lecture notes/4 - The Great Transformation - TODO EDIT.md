@@ -6,6 +6,12 @@ updated: Tuesday 10th October 2023 12:24:07
 course: HIST 12B
 📕 courses:
   - "[[HIST 12B - Neoliberalism]]"
+parent: HIST 12B
+
+title: 4 - The Great Transformation - TODO EDIT
+
+layout: note
+
 ---
 # US wealth inequality - Gilded Age 1890s
 ## Gilded age

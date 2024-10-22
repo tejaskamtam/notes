@@ -6,6 +6,12 @@ updated: Monday 13th November 2023 16:26:19
 course: GEOG 4
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: discussion
+
+title: Industrial Reorganization
+
+layout: note
+
 ---
 ## Govt funded innovation - L. Fleming
 - industry relies on scientific advancement

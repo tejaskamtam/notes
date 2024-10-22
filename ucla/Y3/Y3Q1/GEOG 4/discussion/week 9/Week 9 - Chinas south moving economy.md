@@ -6,6 +6,12 @@ updated: Monday 27th November 2023 16:08:48
 course: GEOG 4
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: discussion
+
+title: Week 9 - Chinas south moving economy
+
+layout: note
+
 ---
 ## Shift south
 - northern has been in the lead for manufacturing raw materials and slightly processed goods

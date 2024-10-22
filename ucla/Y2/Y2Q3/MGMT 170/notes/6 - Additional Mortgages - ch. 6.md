@@ -5,6 +5,12 @@ created: 2023-04-16T20:48
 updated: 2023-06-15T10:07
 📕 courses:
   - "[[MGMT 170- Real Estate Finance]]"
+parent: MGMT 170
+
+title: 6 - Additional Mortgages - ch. 6
+
+layout: note
+
 ---
 # Supplemental
 

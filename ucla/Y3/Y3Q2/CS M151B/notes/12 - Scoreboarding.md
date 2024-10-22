@@ -5,6 +5,12 @@ created: 2024-02-22 16:28
 updated: Thursday 22nd February 2024 16:28:55
 course: CS M151B
 📕 courses:
+parent: CS M151B
+
+title: 12 - Scoreboarding
+
+layout: note
+
 ---
 ## Limitations of RAT (renaming regs)
 - RAT resolves WAR and WAW dependencies but till not RAW

@@ -5,6 +5,12 @@ created: 2024-03-07 16:14
 updated: Thursday 7th March 2024 16:14:53
 course: CS M151B
 📕 courses:
+parent: CS M151B
+
+title: 17 - FPGAs
+
+layout: note
+
 ---
 
 ## Lookup Tables

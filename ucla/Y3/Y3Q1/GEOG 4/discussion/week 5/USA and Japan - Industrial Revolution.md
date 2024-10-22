@@ -6,6 +6,12 @@ updated: Monday 30th October 2023 16:17:32
 course: GEOG 4
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: discussion
+
+title: USA and Japan - Industrial Revolution
+
+layout: note
+
 ---
 # Supplemental
 

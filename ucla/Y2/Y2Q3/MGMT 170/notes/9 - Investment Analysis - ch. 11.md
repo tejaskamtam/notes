@@ -5,6 +5,12 @@ created: 2023-05-01T00:31
 updated: 2023-06-15T10:07
 📕 courses:
   - "[[MGMT 170- Real Estate Finance]]"
+parent: MGMT 170
+
+title: 9 - Investment Analysis - ch. 11
+
+layout: note
+
 ---
 # Supplemental
 

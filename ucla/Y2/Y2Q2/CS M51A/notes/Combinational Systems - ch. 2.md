@@ -6,6 +6,12 @@ updated: 2023-01-31T14:09
 📕 courses:
   - "[[CS M51A- Digital Logic]]"
 tags: cs
+parent: CS M51A
+
+title: Combinational Systems - ch. 2
+
+layout: note
+
 ---
 # Definitions
 

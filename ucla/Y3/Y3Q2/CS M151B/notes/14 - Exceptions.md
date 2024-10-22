@@ -5,6 +5,12 @@ created: 2024-02-29 16:17
 updated: Thursday 29th February 2024 16:17:33
 course: CS M151B
 📕 courses:
+parent: CS M151B
+
+title: 14 - Exceptions
+
+layout: note
+
 ---
 ## Types of Errors
 ### Interrupts

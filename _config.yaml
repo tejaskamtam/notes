@@ -19,8 +19,9 @@ description: A second brain
 author: Tejas Kamtam
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://tejaskamtam.github.io/' # the base hostname & protocol for your site, e.g. http://example.com
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME", ".ruby-version"]
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME", ".ruby-version", "util.py"]
 markdown: kramdown
+latex: mathjax
 
 # Theme settings
 theme: "just-the-docs"
@@ -30,27 +31,14 @@ heading_anchors: true
 permalink: pretty
 
 nav_external_links:
-  - title: Home
+  - title: My Website
     url: https://tejaskamtam.com
   - title: GitHub
     url: https://github.com/tejaskamtam
-  - title: Notes repo
+  - title: This Notes Repo
     url: https://github.com/tejaskamtam/tejaskamtam.github.io
 
-# Collections for website data
-# collections:
-#   staffers:
-#   modules:
-#   schedules:
-#   announcements:
-# Default layouts for each collection type
-defaults:
-  - scope:
-      path: 'ucla'
-    values:
-      layout: note
-      subpath: '/Attachments/'
-      subpath: '/Excalidraw/'
+
 
 compress_html:
   clippings: all

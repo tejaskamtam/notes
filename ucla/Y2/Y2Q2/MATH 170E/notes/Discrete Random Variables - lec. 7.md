@@ -6,6 +6,12 @@ updated: 2023-02-16T20:38
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: MATH 170E
+
+title: Discrete Random Variables - lec. 7
+
+layout: note
+
 ---
 # Definitions
 

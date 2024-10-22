@@ -1,8 +1,7 @@
 ---
-title: "CS 163"
-layout: note
-parent: Y4Q1
-nav_order: 3
+title: CS 163
+layout: default
+parent: UCLA
 ---
 
 # CS 163 - Computer Vision

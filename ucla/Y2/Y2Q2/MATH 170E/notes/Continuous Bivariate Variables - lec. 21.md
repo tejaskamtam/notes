@@ -6,6 +6,12 @@ updated: 2023-03-16T19:56
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: MATH 170E
+
+title: Continuous Bivariate Variables - lec. 21
+
+layout: note
+
 ---
 # Definitions
 

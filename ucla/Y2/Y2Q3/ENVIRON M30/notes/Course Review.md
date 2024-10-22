@@ -5,6 +5,12 @@ created: 2023-06-06T10:05
 updated: 2023-06-12T20:33
 📕 courses:
   - "[[Environ M30- Environmental Literature]]"
+parent: ENVIRON M30
+
+title: Course Review
+
+layout: note
+
 ---
 # Supplemental
 

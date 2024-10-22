@@ -5,6 +5,12 @@ created: 2024-01-29 08:10
 updated: Monday 29th January 2024 08:10:28
 course: CS 162
 📕 courses:
+parent: CS 162
+
+title: 5 - N-gram Model
+
+layout: note
+
 ---
 ## Practicals
 - models $$p(x_{\{t:t+n\}})\quad\text{OR}\quad p(x_{t+n}|x_{\{t:t+n-1\}})$$

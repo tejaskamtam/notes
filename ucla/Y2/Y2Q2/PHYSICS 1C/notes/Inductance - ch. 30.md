@@ -5,6 +5,12 @@ created: 2023-02-01T13:00
 updated: 2023-02-06T12:55
 📕 courses:
   - "[[Physics 1C- EM, Waves, & Optics]]"
+parent: PHYSICS 1C
+
+title: Inductance - ch. 30
+
+layout: note
+
 ---
 # Definitions
 

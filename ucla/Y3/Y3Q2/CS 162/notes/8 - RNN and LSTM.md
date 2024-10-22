@@ -5,6 +5,12 @@ created: 2024-02-06 13:16
 updated: Tuesday 6th February 2024 13:16:58
 course: CS 162
 📕 courses:
+parent: CS 162
+
+title: 8 - RNN and LSTM
+
+layout: note
+
 ---
 ## RNNs
 - use sequential information to make preds

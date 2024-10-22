@@ -5,6 +5,12 @@ created: 2023-04-04T20:54
 updated: 2023-06-15T10:07
 📕 courses:
   - "[[MGMT 170- Real Estate Finance]]"
+parent: MGMT 170
+
+title: 2 - Notes and Mortgages - ch. 2
+
+layout: note
+
 ---
 # Definitions
 

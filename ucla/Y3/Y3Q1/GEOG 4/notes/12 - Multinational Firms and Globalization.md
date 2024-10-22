@@ -6,6 +6,12 @@ updated: Sunday 12th November 2023 22:37:23
 course: GEOG 4
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: GEOG 4
+
+title: 12 - Multinational Firms and Globalization
+
+layout: note
+
 ---
 ## Background
 - beginning of disorganized capitalism of post-fordism

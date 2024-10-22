@@ -6,6 +6,12 @@ updated: Sunday 12th November 2023 22:37:05
 course: GEOG 4
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: GEOG 4
+
+title: 11 - Crisis of Fordism
+
+layout: note
+
 ---
 ## 1960-1970s Causes
 - Rising cost of production

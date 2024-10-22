@@ -5,6 +5,12 @@ created: 2023-04-10T10:55
 updated: 2023-06-15T10:07
 📕 courses:
   - "[[MGMT 170- Real Estate Finance]]"
+parent: MGMT 170
+
+title: 4 - Fixed Rate Mortgage - ch. 4
+
+layout: note
+
 ---
 # Definitions
 

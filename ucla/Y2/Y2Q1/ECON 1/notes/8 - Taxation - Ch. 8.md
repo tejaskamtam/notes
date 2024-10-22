@@ -6,6 +6,12 @@ updated: 2022-11-17T02:15
 📕 courses:
   - "[[ECON 1- Microeconomics]]"
 tags: econ
+parent: ECON 1
+
+title: 8 - Taxation - Ch. 8
+
+layout: note
+
 ---
 # Definitions
 

@@ -6,6 +6,12 @@ updated: Wednesday 25th October 2023 14:39:13
 course: CS 131
 📕 courses:
   - "[[CS 131 - Programming Languages]]"
+parent: CS 131
+
+title: 4 - Datapalooza
+
+layout: note
+
 ---
 ## Variable vs. Value
 ![[Pasted image 20231025144421.png]]

@@ -6,6 +6,12 @@ updated: 2022-10-27T17:18
 📕 courses:
   - "[[MGMT 1A- Accounting]]"
 tags: accounting
+parent: MGMT 1A
+
+title: 1 - Accounting in Business - Ch. 1
+
+layout: note
+
 ---
 # Recall
 

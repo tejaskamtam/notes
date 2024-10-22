@@ -6,6 +6,12 @@ updated: Wednesday 6th December 2023 12:09:33
 course: CS 131
 📕 courses:
   - "[[CS 131 - Programming Languages]]"
+parent: CS 131
+
+title: 8 - Logic Programming and Prolog
+
+layout: note
+
 ---
 ## Logic Programming
 - structure

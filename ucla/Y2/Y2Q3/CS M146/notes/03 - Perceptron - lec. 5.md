@@ -5,6 +5,12 @@ created: 2023-04-17T14:14
 updated: 2023-04-26T00:43
 📕 courses:
   - "[[CS M146- Machine Learning]]"
+parent: CS M146
+
+title: 03 - Perceptron - lec. 5
+
+layout: note
+
 ---
 # Supplemental
 

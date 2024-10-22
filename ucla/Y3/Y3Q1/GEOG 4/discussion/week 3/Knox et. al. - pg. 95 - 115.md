@@ -6,6 +6,12 @@ updated: Monday 16th October 2023 16:02:11
 course: GEOG 4
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: discussion
+
+title: Knox et. al. - pg. 95 - 115
+
+layout: note
+
 ---
 **“Pre-industrial foundations,” in _Geography of the World Economy_**
 ## Shift in Cultivation

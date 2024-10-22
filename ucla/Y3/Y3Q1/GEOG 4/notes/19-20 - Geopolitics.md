@@ -6,6 +6,12 @@ updated: Wednesday 6th December 2023 01:56:20
 course: GEOG 4
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: GEOG 4
+
+title: 19-20 - Geopolitics
+
+layout: note
+
 ---
 ## US and China in context
 - 4 major geopolitical eras:

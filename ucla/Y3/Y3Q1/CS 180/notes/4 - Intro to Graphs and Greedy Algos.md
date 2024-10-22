@@ -6,6 +6,12 @@ updated: Tuesday 10th October 2023 08:15:10
 course: CS 180
 📕 courses:
   - "[[CS 180 - Algorithms]]"
+parent: CS 180
+
+title: 4 - Intro to Graphs and Greedy Algos
+
+layout: note
+
 ---
 # Priority Queue
 - in-class priority queue implementation uses a heap

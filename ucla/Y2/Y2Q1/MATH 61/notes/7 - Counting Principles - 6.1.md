@@ -6,6 +6,12 @@ updated: 2022-10-27T17:19
 📕 courses:
   - "[[Math 61- Discrete Structures]]"
 tags: math
+parent: MATH 61
+
+title: 7 - Counting Principles - 6.1
+
+layout: note
+
 ---
 # Recall
 

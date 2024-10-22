@@ -5,6 +5,12 @@ created: 2024-01-25 17:33
 updated: Thursday 25th January 2024 17:33:52
 course: CS M151B
 📕 courses:
+parent: CS M151B
+
+title: 6 - Digital Circuits Review
+
+layout: note
+
 ---
 ## Combinational Circuits
 - combination of logical gates, output based on input only

@@ -4,6 +4,12 @@ quarter: Y3Q1
 created: 2024-03-18 20:56
 updated: Monday 18th March 2024 20:56:59
 course: CS 174A
+parent: CS 174A
+
+title: 10 - Hidden Surface Removal
+
+layout: note
+
 ---
 - Determine which objects are in front/behind and decide what to display
 - order front to back (priority list) and prioritize those in front and ensure those are not transparent/translucent

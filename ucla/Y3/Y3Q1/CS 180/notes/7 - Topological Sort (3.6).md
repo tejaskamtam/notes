@@ -6,6 +6,12 @@ updated: Thursday 19th October 2023 08:03:19
 course: CS 180
 📕 courses:
   - "[[CS 180 - Algorithms]]"
+parent: CS 180
+
+title: 7 - Topological Sort (3.6)
+
+layout: note
+
 ---
 ## Topo Sort
 - operates on a DAG to sort by topology, all vertices s.t. if there is an (x,y) edge, x must come before y in the sorted list

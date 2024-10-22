@@ -6,6 +6,12 @@ updated: 2023-03-16T23:47
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: MATH 170E
+
+title: Continuous Conditional Distribution - lec. 22
+
+layout: note
+
 ---
 # Definitions
 

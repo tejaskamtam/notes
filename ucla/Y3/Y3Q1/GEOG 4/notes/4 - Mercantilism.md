@@ -6,6 +6,12 @@ updated: Wednesday 11th October 2023 09:27:32
 course: GEOG 4
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: GEOG 4
+
+title: 4 - Mercantilism
+
+layout: note
+
 ---
 ## Feudalism to Mercantilism
 - the modern economy developed from feudalism as it emerged in post-roman Mediterranean loci

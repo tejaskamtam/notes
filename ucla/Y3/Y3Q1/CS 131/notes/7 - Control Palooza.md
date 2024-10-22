@@ -6,6 +6,12 @@ updated: Wednesday 29th November 2023 15:09:46
 course: CS 131
 📕 courses:
   - "[[CS 131 - Programming Languages]]"
+parent: CS 131
+
+title: 7 - Control Palooza
+
+layout: note
+
 ---
 ## Expressions, Associativity, and Order of Eval
 - C++ is not deterministic in the evaluation of the terms of an expression, e.g. evaluating a function in an arithmetic expression or evaluating a function passed as a parameter

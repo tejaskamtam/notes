@@ -6,6 +6,12 @@ updated: Friday 6th October 2023 09:17:41
 course: HIST 12B
 📕 courses:
   - "[[HIST 12B - Neoliberalism]]"
+parent: discussion
+
+title: Week 1 - Section
+
+layout: note
+
 ---
 # Supplemental
 - Discussions are open-ended

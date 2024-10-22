@@ -6,6 +6,12 @@ updated: 2022-10-27T17:19
 📕 courses:
   - "[[Math 61- Discrete Structures]]"
 tags: math
+parent: MATH 61
+
+title: Math 61 Midterm 1 Review
+
+layout: note
+
 ---
 # Recall
 

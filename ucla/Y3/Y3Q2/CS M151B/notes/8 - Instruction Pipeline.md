@@ -5,6 +5,12 @@ created: 2024-02-01 16:11
 updated: Thursday 1st February 2024 16:11:57
 course: CS M151B
 📕 courses:
+parent: CS M151B
+
+title: 8 - Instruction Pipeline
+
+layout: note
+
 ---
 ## Single Cycle CPU
 - single cycle iin series, no parallelism ![[Pasted image 20240130173357.png]]

@@ -6,6 +6,12 @@ updated: Monday 20th November 2023 22:44:01
 course: CS 131
 📕 courses:
   - "[[CS 131 - Programming Languages]]"
+parent: CS 131
+
+title: 6 - Object Oriented Programming
+
+layout: note
+
 ---
 ## OOP Overview
 - ![[Pasted image 20231212201223.png]]

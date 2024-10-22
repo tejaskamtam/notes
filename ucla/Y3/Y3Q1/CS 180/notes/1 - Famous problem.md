@@ -5,6 +5,12 @@ created: 2023-09-28T08:15
 updated: 2023-10-03T20:30
 📕 courses:
   - "[[CS 180 - Algorithms]]"
+parent: CS 180
+
+title: 1 - Famous problem
+
+layout: note
+
 ---
 # Supplemental
 

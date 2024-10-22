@@ -6,6 +6,12 @@ updated: Friday 17th November 2023 09:04:08
 course: HIST 12B
 📕 courses:
   - "[[HIST 12B - Neoliberalism]]"
+parent: discussion
+
+title: Week 7 Notes
+
+layout: note
+
 ---
 ## Nilsen, von Holdt
 > Alf Gunvald Nilsen and Karl von Holdt, “Rising powers, people rising: neoliberalization and its discontents in the BRICS countries,” Globalizations (2018).

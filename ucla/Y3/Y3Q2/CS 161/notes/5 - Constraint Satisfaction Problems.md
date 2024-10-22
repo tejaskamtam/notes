@@ -5,6 +5,12 @@ created: 2024-01-29 14:00
 updated: Monday 29th January 2024 14:00:57
 course: CS 161
 📕 courses:
+parent: CS 161
+
+title: 5 - Constraint Satisfaction Problems
+
+layout: note
+
 ---
 ## Structure
 - factored into parts, w/ percepts - solution can see the current state and make nondeterministic choices

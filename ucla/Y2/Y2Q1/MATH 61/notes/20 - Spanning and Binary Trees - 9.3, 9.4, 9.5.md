@@ -6,6 +6,12 @@ updated: 2022-11-29T19:56
 📕 courses:
   - "[[Math 61- Discrete Structures]]"
 tags: math
+parent: MATH 61
+
+title: 20 - Spanning and Binary Trees - 9.3, 9.4, 9.5
+
+layout: note
+
 ---
 # Definitions
 

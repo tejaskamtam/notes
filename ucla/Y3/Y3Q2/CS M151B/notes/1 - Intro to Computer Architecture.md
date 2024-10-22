@@ -5,6 +5,12 @@ created: 2024-01-09 17:21
 updated: Tuesday 9th January 2024 17:21:31
 course: CS M151B
 📕 courses:
+parent: CS M151B
+
+title: 1 - Intro to Computer Architecture
+
+layout: note
+
 ---
 ## CPU Time
 - CPI = Clock per instructions $$\text{CPU Time}=\frac{\text{Instruction Count}\times\text{CPI}}{\text{Clock Rate}}=IC\times CPI\times\text{Clock Time}$$

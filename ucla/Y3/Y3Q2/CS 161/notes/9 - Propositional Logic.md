@@ -5,6 +5,12 @@ created: 2024-02-26 14:22
 updated: Monday 26th February 2024 14:22:00
 course: CS 161
 📕 courses:
+parent: CS 161
+
+title: 9 - Propositional Logic
+
+layout: note
+
 ---
 ## Basic Concepts
 ### Syntax

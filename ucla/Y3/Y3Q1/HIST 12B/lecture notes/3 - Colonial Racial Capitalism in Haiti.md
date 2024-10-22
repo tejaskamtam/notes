@@ -6,6 +6,12 @@ updated: Monday 9th October 2023 22:46:25
 course: HIST 12B
 📕 courses:
   - "[[HIST 12B - Neoliberalism]]"
+parent: HIST 12B
+
+title: 3 - Colonial Racial Capitalism in Haiti
+
+layout: note
+
 ---
 # 4 border governance strategies
 - identified by Walia in Border and Rule

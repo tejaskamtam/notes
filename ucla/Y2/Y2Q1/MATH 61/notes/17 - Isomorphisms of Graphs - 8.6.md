@@ -6,6 +6,12 @@ updated: 2022-11-08T15:09
 📕 courses:
   - "[[Math 61- Discrete Structures]]"
 tags: math
+parent: MATH 61
+
+title: 17 - Isomorphisms of Graphs - 8.6
+
+layout: note
+
 ---
 # Definitions
 

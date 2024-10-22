@@ -6,6 +6,12 @@ updated: 2022-11-03T19:56
 📕 courses:
   - "[[ECON 1- Microeconomics]]"
 tags: econ
+parent: ECON 1
+
+title: 7 - Efficiency of Markets - Ch. 7
+
+layout: note
+
 ---
 # Definitions
 

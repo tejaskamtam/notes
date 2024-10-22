@@ -5,6 +5,12 @@ created: 2023-02-06T11:06
 updated: 2023-03-19T23:00
 📕 courses:
   - "[[Physics 1C- EM, Waves, & Optics]]"
+parent: PHYSICS 1C
+
+title: Alternating Current - ch. 31
+
+layout: note
+
 ---
 # Definitions
 

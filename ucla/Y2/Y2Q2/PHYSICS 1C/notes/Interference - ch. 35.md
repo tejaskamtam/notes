@@ -5,6 +5,12 @@ created: 2023-03-13T08:27
 updated: 2023-03-18T23:17
 📕 courses:
   - "[[Physics 1C- EM, Waves, & Optics]]"
+parent: PHYSICS 1C
+
+title: Interference - ch. 35
+
+layout: note
+
 ---
 # Definitions
 

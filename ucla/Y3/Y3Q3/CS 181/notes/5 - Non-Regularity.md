@@ -4,6 +4,12 @@ quarter: Y3Q1
 created: 2024-04-22 14:25
 updated: Monday 22nd April 2024 14:25:57
 course: CS 181
+parent: CS 181
+
+title: 5 - Non-Regularity
+
+layout: note
+
 ---
 ## First Non. Reg. Lang.
 - $L=\{0^n1^n\space:\space n\ge 1\}$

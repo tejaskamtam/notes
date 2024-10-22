@@ -5,6 +5,12 @@ created: 2023-10-13 09:07
 updated: Friday 13th October 2023 09:07:31
 course: 
 📕 courses:
+parent: discussion
+
+title: Week 2 - Neoliberalism - Hayek, Prashad, Friedman, Slobodian
+
+layout: note
+
 ---
 
 # Hayek

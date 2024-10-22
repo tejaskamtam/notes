@@ -6,6 +6,12 @@ updated: Thursday 12th October 2023 08:09:33
 course: CS 180
 📕 courses:
   - "[[CS 180 - Algorithms]]"
+parent: CS 180
+
+title: 5 - Graph Traversal (3.2, 3.3)
+
+layout: note
+
 ---
 # BFS - level order
 - given a starting vertex $a$, visit all of $a$'s adjacencies iteratively - const. time

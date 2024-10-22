@@ -6,6 +6,12 @@ updated: 2023-01-13T08:36
 📕 courses:
   - "[[CS M51A- Digital Logic]]"
 tags: cs
+parent: CS M51A
+
+title: Full Adder
+
+layout: note
+
 ---
 # Definitions
 

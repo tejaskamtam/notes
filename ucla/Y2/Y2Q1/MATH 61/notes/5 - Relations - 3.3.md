@@ -6,6 +6,12 @@ updated: 2022-10-27T19:47
 📕 courses:
   - "[[Math 61- Discrete Structures]]"
 tags: math
+parent: MATH 61
+
+title: 5 - Relations - 3.3
+
+layout: note
+
 ---
 # Recall
 

@@ -4,6 +4,12 @@ quarter: Y3Q1
 created: 2024-04-17 14:26
 updated: Wednesday 17th April 2024 14:26:55
 course: CS 181
+parent: CS 181
+
+title: 4 - Regular Expressions
+
+layout: note
+
 ---
 ## Basic Notions
 - a reg. exp. represents a set of strings

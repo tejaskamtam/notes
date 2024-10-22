@@ -6,6 +6,12 @@ updated: 2022-10-27T17:19
 📕 courses:
   - "[[Math 61- Discrete Structures]]"
 tags: math
+parent: MATH 61
+
+title: 8 - Permutations and Combinations - 6.2
+
+layout: note
+
 ---
 # Recall
 

@@ -6,6 +6,12 @@ updated: 2023-02-01T11:18
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: MATH 170E
+
+title: 01 - Set Theory - lec. 1
+
+layout: note
+
 ---
 # Definitions
 

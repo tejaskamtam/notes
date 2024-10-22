@@ -6,6 +6,12 @@ updated: 2022-10-27T17:19
 📕 courses:
   - "[[Math 61- Discrete Structures]]"
 tags: math
+parent: MATH 61
+
+title: 1 - Sets - 1.1, 3.1
+
+layout: note
+
 ---
 # Recall
 

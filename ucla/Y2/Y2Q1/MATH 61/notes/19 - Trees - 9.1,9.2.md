@@ -6,6 +6,12 @@ updated: 2022-11-22T19:16
 📕 courses:
   - "[[Math 61- Discrete Structures]]"
 tags: math
+parent: MATH 61
+
+title: 19 - Trees - 9.1,9.2
+
+layout: note
+
 ---
 # Definitions
 

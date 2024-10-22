@@ -4,6 +4,12 @@ quarter: Y3Q1
 created: 2024-03-18 22:08
 updated: Monday 18th March 2024 22:08:20
 course: CS 174A
+parent: CS 174A
+
+title: 11 - Lighting
+
+layout: note
+
 ---
 ## Types of lighting
 - ambient - instead of checking the physical scattering, we assume each object has ambient lighting directly behind it that gives us a silhoutte

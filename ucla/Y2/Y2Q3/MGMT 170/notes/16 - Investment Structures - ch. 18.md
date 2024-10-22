@@ -5,6 +5,12 @@ created: 2023-05-26T10:38
 updated: 2023-06-15T10:08
 📕 courses:
   - "[[MGMT 170- Real Estate Finance]]"
+parent: MGMT 170
+
+title: 16 - Investment Structures - ch. 18
+
+layout: note
+
 ---
 # Supplemental
 

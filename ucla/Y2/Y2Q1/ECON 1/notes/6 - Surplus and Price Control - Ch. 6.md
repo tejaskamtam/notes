@@ -6,6 +6,12 @@ updated: 2022-12-05T19:25
 📕 courses:
   - "[[ECON 1- Microeconomics]]"
 tags: econ
+parent: ECON 1
+
+title: 6 - Surplus and Price Control - Ch. 6
+
+layout: note
+
 ---
 # Notes
 

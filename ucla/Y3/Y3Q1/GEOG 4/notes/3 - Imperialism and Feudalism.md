@@ -6,6 +6,12 @@ updated: Monday 9th October 2023 09:29:56
 course: GEOG 4
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: GEOG 4
+
+title: 3 - Imperialism and Feudalism
+
+layout: note
+
 ---
 ## History
 - Until the 1500s, the world was organized into localist empires that waxed/waned

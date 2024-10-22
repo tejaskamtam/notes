@@ -6,6 +6,12 @@ updated: 2022-10-27T19:10
 📕 courses:
   - "[[CS 35L- Software Construction]]"
 tags: cs
+parent: CS 35L
+
+title: Week 5- HTML, JS, CSS, JSONXML
+
+layout: note
+
 ---
 **Week 5 Lecture Notes**
 

@@ -6,6 +6,12 @@ updated: Tuesday 31st October 2023 20:36:53
 course: GEOG 4
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: GEOG 4
+
+title: 8-9 - US and Japan Industrial Revolutions
+
+layout: note
+
 ---
 ## Background
 - expansion of global "core" to USA 1820-1920

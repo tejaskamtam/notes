@@ -5,6 +5,12 @@ created: 2023-02-21T13:03
 updated: 2023-03-19T20:56
 📕 courses:
   - "[[Physics 1C- EM, Waves, & Optics]]"
+parent: PHYSICS 1C
+
+title: Optics - ch. 34
+
+layout: note
+
 ---
 # Definitions
 

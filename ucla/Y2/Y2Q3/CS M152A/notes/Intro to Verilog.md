@@ -5,6 +5,12 @@ created: 2023-04-03T12:24
 updated: 2023-04-04T20:14
 📕 courses:
   - "[[CS M152A- Verilog HDL]]"
+parent: CS M152A
+
+title: Intro to Verilog
+
+layout: note
+
 ---
 # Definitions
 

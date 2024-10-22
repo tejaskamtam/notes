@@ -6,6 +6,12 @@ updated: 2023-02-02T12:51
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: Y2Q2
+
+title: Midterm 1 Practice
+
+layout: note
+
 ---
 # Definitions
 

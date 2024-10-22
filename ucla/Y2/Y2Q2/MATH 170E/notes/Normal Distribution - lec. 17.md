@@ -6,6 +6,12 @@ updated: 2023-02-24T02:05
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: MATH 170E
+
+title: Normal Distribution - lec. 17
+
+layout: note
+
 ---
 # Definitions
 

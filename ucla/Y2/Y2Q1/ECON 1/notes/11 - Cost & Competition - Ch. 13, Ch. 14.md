@@ -6,6 +6,12 @@ updated: 2022-12-06T14:24
 📕 courses:
   - "[[ECON 1- Microeconomics]]"
 tags: econ
+parent: ECON 1
+
+title: 11 - Cost & Competition - Ch. 13, Ch. 14
+
+layout: note
+
 ---
 # Definitions
 

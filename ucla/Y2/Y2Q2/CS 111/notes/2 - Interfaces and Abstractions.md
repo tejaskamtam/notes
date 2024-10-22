@@ -6,6 +6,12 @@ updated: 2023-01-17T09:50
 📕 courses:
   - "[[CS 111- Operating Systems]]"
 tags: cs
+parent: CS 111
+
+title: 2 - Interfaces and Abstractions
+
+layout: note
+
 ---
 # Definitions
 

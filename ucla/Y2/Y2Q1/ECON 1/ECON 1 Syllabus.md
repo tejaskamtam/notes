@@ -6,6 +6,12 @@ updated: 2022-10-27T17:18
 📕 courses:
   - "[[ECON 1- Microeconomics]]"
 tags: econ
+parent: Y2Q1
+
+title: ECON 1 Syllabus
+
+layout: note
+
 ---
   
 

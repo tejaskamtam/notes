@@ -6,6 +6,12 @@ updated: 2023-01-12T19:24
 📕 courses:
   - "[[CS 111- Operating Systems]]"
 tags: cs
+parent: CS 111
+
+title: 1 - Basics of OS
+
+layout: note
+
 ---
 # Definitions
 

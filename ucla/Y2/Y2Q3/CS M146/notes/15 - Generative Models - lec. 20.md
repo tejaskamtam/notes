@@ -5,6 +5,12 @@ created: 2023-06-07T14:11
 updated: 2023-06-07T15:18
 📕 courses:
   - "[[CS M146- Machine Learning]]"
+parent: CS M146
+
+title: 15 - Generative Models - lec. 20
+
+layout: note
+
 ---
 # Supplemental
 

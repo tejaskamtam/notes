@@ -5,6 +5,12 @@ created: 2024-01-16 18:29
 updated: Tuesday 16th January 2024 18:29:10
 course: CS 174A
 📕 courses:
+parent: CS 174A
+
+title: 3 - Linear Algebra for Graphics
+
+layout: note
+
 ---
 ## Point Arithmetic
 - $P_1-P_2=\vec V$

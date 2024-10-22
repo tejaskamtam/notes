@@ -4,6 +4,12 @@ quarter: Y3Q1
 created: 2024-04-01 17:16
 updated: Monday 1st April 2024 17:16:10
 course: ECE 209AS
+parent: ECE 209AS
+
+title: 1 - Adversarial Robustness
+
+layout: note
+
 ---
 ## Adversarial Perturbation (For Red-Teaming)
 - Geometric perturbation - rotating, flipping images to misclassify, e.g. MNIST 7 -> 3 by rotating

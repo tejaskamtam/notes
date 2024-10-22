@@ -5,6 +5,12 @@ created: 2023-04-23T23:23
 updated: 2023-06-15T10:07
 📕 courses:
   - "[[MGMT 170- Real Estate Finance]]"
+parent: MGMT 170
+
+title: 8 - Valuation of Income Properties - ch. 10
+
+layout: note
+
 ---
 # Supplemental
 

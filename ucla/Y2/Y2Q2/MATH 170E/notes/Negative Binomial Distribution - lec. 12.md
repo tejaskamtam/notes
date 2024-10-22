@@ -6,6 +6,12 @@ updated: 2023-02-16T21:00
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: MATH 170E
+
+title: Negative Binomial Distribution - lec. 12
+
+layout: note
+
 ---
 # Definitions
 

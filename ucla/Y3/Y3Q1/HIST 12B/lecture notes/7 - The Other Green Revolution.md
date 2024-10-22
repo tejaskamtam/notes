@@ -6,6 +6,12 @@ updated: Thursday 26th October 2023 21:40:33
 course: HIST 12B
 📕 courses:
   - "[[HIST 12B - Neoliberalism]]"
+parent: HIST 12B
+
+title: 7 - The Other Green Revolution
+
+layout: note
+
 ---
 continues from previous lecture
 

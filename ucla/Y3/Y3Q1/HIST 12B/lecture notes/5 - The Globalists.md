@@ -6,6 +6,12 @@ updated: Tuesday 24th October 2023 22:26:05
 course: HIST 12B
 📕 courses:
   - "[[HIST 12B - Neoliberalism]]"
+parent: HIST 12B
+
+title: 5 - The Globalists
+
+layout: note
+
 ---
 ## Bretton Woods System, 1944-1971
 - established IMF - monitor forex rates and loaning to nations with balance-of-payments (import-export imbalance, major inflation) deficits

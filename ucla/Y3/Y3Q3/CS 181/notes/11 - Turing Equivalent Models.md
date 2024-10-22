@@ -4,6 +4,12 @@ quarter: Y3Q1
 created: 2024-05-22 14:11
 updated: Wednesday 22nd May 2024 14:11:20
 course: CS 181
+parent: CS 181
+
+title: 11 - Turing Equivalent Models
+
+layout: note
+
 ---
 ## Church-Turing Thesis
 - any real world computational model can be modeled by a TM (turing machine)

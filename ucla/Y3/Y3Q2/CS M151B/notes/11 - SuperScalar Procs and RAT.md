@@ -5,6 +5,12 @@ created: 2024-02-15 16:10
 updated: Thursday 15th February 2024 16:10:34
 course: CS M151B
 📕 courses:
+parent: CS M151B
+
+title: 11 - SuperScalar Procs and RAT
+
+layout: note
+
 ---
 ## CPU Performance
 - latency - time to complete a task

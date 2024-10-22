@@ -5,6 +5,12 @@ created: 2023-04-05T22:29
 updated: 2023-04-06T10:46
 📕 courses:
   - "[[Environ M30- Environmental Literature]]"
+parent: ENVIRON M30
+
+title: Planting Sweetgrass - Robin Kimmerer
+
+layout: note
+
 ---
 # Definitions
 

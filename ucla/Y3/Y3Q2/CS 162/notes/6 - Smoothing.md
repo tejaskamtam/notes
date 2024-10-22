@@ -5,6 +5,12 @@ created: 2024-02-06 11:41
 updated: Tuesday 6th February 2024 11:41:36
 course: CS 162
 📕 courses:
+parent: CS 162
+
+title: 6 - Smoothing
+
+layout: note
+
 ---
 ## Smoothing
 - reduces variance by introducing bias

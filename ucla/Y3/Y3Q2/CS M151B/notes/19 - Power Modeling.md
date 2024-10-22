@@ -4,6 +4,12 @@ quarter: Y3Q1
 created: 2024-03-14 16:12
 updated: Thursday 14th March 2024 16:12:11
 course: CS M151B
+parent: CS M151B
+
+title: 19 - Power Modeling
+
+layout: note
+
 ---
 ## Power Calc
 Total Power = Dynamic Power + Static Power

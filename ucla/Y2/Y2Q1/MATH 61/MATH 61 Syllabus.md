@@ -6,6 +6,12 @@ updated: 2022-10-27T17:19
 📕 courses:
   - "[[Math 61- Discrete Structures]]"
 tags: math
+parent: Y2Q1
+
+title: MATH 61 Syllabus
+
+layout: note
+
 ---
 📌
 

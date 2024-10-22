@@ -6,6 +6,12 @@ updated: Monday 27th November 2023 03:01:33
 course: GEOG 4
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: GEOG 4
+
+title: 15 - The Periphery
+
+layout: note
+
 ---
 ## Background
 - what is happening in the world beyond the core

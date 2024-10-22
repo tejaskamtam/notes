@@ -6,6 +6,12 @@ updated: 2022-10-27T17:19
 📕 courses:
   - "[[MGMT 1A- Accounting]]"
 tags: accounting
+parent: MGMT 1A
+
+title: 3 - Adjusting Accounts - Ch. 3
+
+layout: note
+
 ---
 # Recall
 

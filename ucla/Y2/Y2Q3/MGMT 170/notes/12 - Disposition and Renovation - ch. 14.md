@@ -5,6 +5,12 @@ created: 2023-05-15T10:58
 updated: 2023-06-15T10:13
 📕 courses:
   - "[[MGMT 170- Real Estate Finance]]"
+parent: MGMT 170
+
+title: 12 - Disposition and Renovation - ch. 14
+
+layout: note
+
 ---
 # Supplemental
 

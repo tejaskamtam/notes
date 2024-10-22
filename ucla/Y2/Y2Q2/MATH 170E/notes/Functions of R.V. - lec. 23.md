@@ -6,6 +6,12 @@ updated: 2023-03-20T16:53
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: MATH 170E
+
+title: Functions of R.V. - lec. 23
+
+layout: note
+
 ---
 # Definitions
 

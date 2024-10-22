@@ -6,6 +6,12 @@ updated: 2023-03-08T15:33
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: MATH 170E
+
+title: Correlation Coefficient - lec. 19
+
+layout: note
+
 ---
 # Definitions
 

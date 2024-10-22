@@ -5,6 +5,12 @@ created: 2023-04-19T11:14
 updated: 2023-06-15T10:07
 📕 courses:
   - "[[MGMT 170- Real Estate Finance]]"
+parent: MGMT 170
+
+title: 7 - Income Producng Properties - ch. 9
+
+layout: note
+
 ---
 # Supplemental
 

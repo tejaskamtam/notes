@@ -6,6 +6,12 @@ updated: 2023-02-24T20:47
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: MATH 170E
+
+title: Exponential Distribution - lec. 15
+
+layout: note
+
 ---
 # Definitions
 

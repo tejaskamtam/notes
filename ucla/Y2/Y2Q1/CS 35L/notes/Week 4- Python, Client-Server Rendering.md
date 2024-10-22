@@ -6,6 +6,12 @@ updated: 2022-10-27T19:11
 📕 courses:
   - "[[CS 35L- Software Construction]]"
 tags: cs
+parent: CS 35L
+
+title: Week 4- Python, Client-Server Rendering
+
+layout: note
+
 ---
 **Week 4 Lecture Notes**
 

@@ -5,6 +5,12 @@ created: 2023-04-17T15:31
 updated: 2023-05-08T08:48
 📕 courses:
   - "[[CS M146- Machine Learning]]"
+parent: CS M146
+
+title: 04 - Logistic Regression - lec. 5,6
+
+layout: note
+
 ---
 # Supplemental
 

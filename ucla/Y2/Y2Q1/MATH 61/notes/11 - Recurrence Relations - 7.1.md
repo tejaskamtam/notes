@@ -6,6 +6,12 @@ updated: 2022-10-27T17:20
 📕 courses:
   - "[[Math 61- Discrete Structures]]"
 tags: math
+parent: MATH 61
+
+title: 11 - Recurrence Relations - 7.1
+
+layout: note
+
 ---
 # Recall
 

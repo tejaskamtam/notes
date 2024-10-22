@@ -5,6 +5,12 @@ created: 2023-04-10T14:02
 updated: 2023-07-10T21:20
 📕 courses:
   - "[[CS M146- Machine Learning]]"
+parent: CS M146
+
+title: 02 - Generalization - lec. 3,4
+
+layout: note
+
 ---
 # Supplemental
 

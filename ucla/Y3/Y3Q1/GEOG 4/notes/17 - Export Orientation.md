@@ -6,6 +6,12 @@ updated: Sunday 3rd December 2023 22:02:58
 course: GEOG 4
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: GEOG 4
+
+title: 17 - Export Orientation
+
+layout: note
+
 ---
 ## Why?
 - import substitution vs export oreinted manufacturing

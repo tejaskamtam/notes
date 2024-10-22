@@ -6,6 +6,12 @@ updated: 2022-11-21T17:29
 📕 courses:
   - "[[Math 61- Discrete Structures]]"
 tags: math
+parent: MATH 61
+
+title: 18 - Planar Graphs - 8.7
+
+layout: note
+
 ---
 # Definitions
 

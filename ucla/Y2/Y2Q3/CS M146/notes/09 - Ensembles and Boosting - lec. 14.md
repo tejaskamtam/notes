@@ -5,6 +5,12 @@ created: 2023-05-15T14:02
 updated: 2023-06-13T22:49
 📕 courses:
   - "[[CS M146- Machine Learning]]"
+parent: CS M146
+
+title: 09 - Ensembles and Boosting - lec. 14
+
+layout: note
+
 ---
 # Supplemental
 

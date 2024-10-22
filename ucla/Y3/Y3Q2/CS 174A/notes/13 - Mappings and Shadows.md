@@ -4,6 +4,12 @@ quarter: Y3Q1
 created: 2024-03-19 01:50
 updated: Tuesday 19th March 2024 01:50:03
 course: CS 174A
+parent: CS 174A
+
+title: 13 - Mappings and Shadows
+
+layout: note
+
 ---
 ## Texture Mapping
 - pasttern mapping: wrap a pattern across a surface

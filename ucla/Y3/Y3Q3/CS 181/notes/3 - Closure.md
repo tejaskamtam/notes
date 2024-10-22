@@ -4,6 +4,12 @@ quarter: Y3Q1
 created: 2024-04-05 14:20
 updated: Friday 5th April 2024 14:20:01
 course: CS 181
+parent: CS 181
+
+title: 3 - Closure
+
+layout: note
+
 ---
 ## Basic Notions
 - Regular Language - a language for which there exists a DFA/NFA that recognizes it

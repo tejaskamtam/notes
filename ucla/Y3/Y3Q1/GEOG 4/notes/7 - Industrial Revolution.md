@@ -6,6 +6,12 @@ updated: Monday 23rd October 2023 09:31:09
 course: GEOG 4
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: GEOG 4
+
+title: 7 - Industrial Revolution
+
+layout: note
+
 ---
 ## Background
 - 2nd transformative event

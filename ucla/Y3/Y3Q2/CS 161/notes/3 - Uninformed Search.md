@@ -5,6 +5,12 @@ created: 2024-01-17 14:02
 updated: Wednesday 17th January 2024 14:02:27
 course: CS 161
 📕 courses:
+parent: CS 161
+
+title: 3 - Uninformed Search
+
+layout: note
+
 ---
 ## Terminology
 - expanding a state - branching its actions

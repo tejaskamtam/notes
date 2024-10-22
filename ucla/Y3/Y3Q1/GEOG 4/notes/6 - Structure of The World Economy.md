@@ -6,6 +6,12 @@ updated: Sunday 22nd October 2023 23:57:32
 course: GEOG 4
 📕 courses:
   - "[[GEOG 4 - Globalization]]"
+parent: GEOG 4
+
+title: 6 - Structure of The World Economy
+
+layout: note
+
 ---
 ## Background
 - From late 1700's (Industrial Revolution) to present day - large world economy

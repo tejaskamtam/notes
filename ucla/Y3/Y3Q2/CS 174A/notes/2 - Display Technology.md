@@ -5,6 +5,12 @@ created: 2024-01-11 19:06
 updated: Thursday 11th January 2024 19:06:13
 course: CS 174A
 📕 courses:
+parent: CS 174A
+
+title: 2 - Display Technology
+
+layout: note
+
 ---
 ## Output Devices
 ### Cathode Ray Tube (CRT)

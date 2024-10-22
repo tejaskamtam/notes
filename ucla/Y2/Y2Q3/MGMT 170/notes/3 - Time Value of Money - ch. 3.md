@@ -5,6 +5,12 @@ created: 2023-04-05T10:07
 updated: 2023-06-15T10:07
 📕 courses:
   - "[[MGMT 170- Real Estate Finance]]"
+parent: MGMT 170
+
+title: 3 - Time Value of Money - ch. 3
+
+layout: note
+
 ---
 # Definitions
 

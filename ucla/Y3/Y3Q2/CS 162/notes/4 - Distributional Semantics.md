@@ -5,6 +5,12 @@ created: 2024-01-22 08:10
 updated: Monday 22nd January 2024 08:10:27
 course: CS 162
 📕 courses:
+parent: CS 162
+
+title: 4 - Distributional Semantics
+
+layout: note
+
 ---
 ## Vector Representations
 ### Sparse vector representations

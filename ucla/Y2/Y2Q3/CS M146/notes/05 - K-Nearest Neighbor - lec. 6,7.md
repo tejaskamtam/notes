@@ -5,6 +5,12 @@ created: 2023-04-24T13:58
 updated: 2023-04-29T23:51
 📕 courses:
   - "[[CS M146- Machine Learning]]"
+parent: CS M146
+
+title: 05 - K-Nearest Neighbor - lec. 6,7
+
+layout: note
+
 ---
 # Supplemental
 

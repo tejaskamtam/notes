@@ -5,6 +5,12 @@ created: 2023-05-17T11:09
 updated: 2023-06-15T10:08
 📕 courses:
   - "[[MGMT 170- Real Estate Finance]]"
+parent: MGMT 170
+
+title: 14 - Financing Project Development - ch. 16
+
+layout: note
+
 ---
 # Supplemental
 

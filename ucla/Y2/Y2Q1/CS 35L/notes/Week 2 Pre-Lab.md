@@ -5,6 +5,12 @@ created: 2023-01-16T16:28
 updated: 2023-01-16T16:36
 📕 courses:
   - "[[Physics 4AL- Kinematics Lab]]"
+parent: CS 35L
+
+title: Week 2 Pre-Lab
+
+layout: note
+
 ---
 # Definitions
 

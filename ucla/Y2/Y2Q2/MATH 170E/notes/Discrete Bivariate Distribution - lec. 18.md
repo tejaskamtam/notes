@@ -6,6 +6,12 @@ updated: 2023-03-08T15:25
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: MATH 170E
+
+title: Discrete Bivariate Distribution - lec. 18
+
+layout: note
+
 ---
 # Definitions
 

@@ -5,6 +5,12 @@ created: 2024-02-07 14:03
 updated: Wednesday 7th February 2024 14:03:52
 course: CS 161
 📕 courses:
+parent: CS 161
+
+title: 7 - Adversarial Search
+
+layout: note
+
 ---
 ## Minimax Search
 - we assume perfect information

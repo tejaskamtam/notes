@@ -6,6 +6,12 @@ updated: 2023-03-19T23:48
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: MATH 170E
+
+title: MGF Technique - lec. 25
+
+layout: note
+
 ---
 # Definitions
 

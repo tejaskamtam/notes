@@ -6,6 +6,12 @@ updated: Monday 13th November 2023 00:14:15
 course: CS 131
 📕 courses:
   - "[[CS 131 - Programming Languages]]"
+parent: CS 131
+
+title: 5 - Function-Palooza
+
+layout: note
+
 ---
 ## Parameter Passing
 - terminology of params/args when defined vs. called

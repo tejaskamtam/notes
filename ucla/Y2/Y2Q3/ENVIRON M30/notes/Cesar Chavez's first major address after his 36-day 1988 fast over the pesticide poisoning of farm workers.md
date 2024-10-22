@@ -6,6 +6,12 @@ updated: 2023-05-10T18:41
 📕 courses:
   - "[[Environ M30- Environmental Literature]]"
 URL: https://ufw.org/research/history/cesar-chavezs-first-major-address-36-day-1988-fast-pesticide-poisoning-farm-workers/
+parent: ENVIRON M30
+
+title: Cesar Chavez's first major address after his 36-day 1988 fast over the pesticide poisoning of farm workers
+
+layout: note
+
 ---
 > Pesticides are always in the fields and around the towns
 > 

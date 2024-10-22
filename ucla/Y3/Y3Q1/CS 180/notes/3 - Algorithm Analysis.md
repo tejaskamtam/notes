@@ -6,6 +6,12 @@ updated: Friday 6th October 2023 10:22:07
 course: CS 131
 📕 courses:
   - "[[CS 180 - Algorithms]]"
+parent: CS 180
+
+title: 3 - Algorithm Analysis
+
+layout: note
+
 ---
 
 # Supplemental

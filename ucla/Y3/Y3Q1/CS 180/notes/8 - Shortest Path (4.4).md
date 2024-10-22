@@ -5,6 +5,12 @@ created: 2023-10-24 08:05
 updated: Tuesday 24th October 2023 08:05:18
 course: 
 📕 courses:
+parent: CS 180
+
+title: 8 - Shortest Path (4.4)
+
+layout: note
+
 ---
 ![[Dijkstra Algorithm Animation.gif]]
 

@@ -5,6 +5,12 @@ created: 2024-02-07 18:13
 updated: Wednesday 7th February 2024 18:13:59
 course: CS M151B
 📕 courses:
+parent: CS M151B
+
+title: Midterm Review
+
+layout: note
+
 ---
 
 ## Latches and Data Forwarding

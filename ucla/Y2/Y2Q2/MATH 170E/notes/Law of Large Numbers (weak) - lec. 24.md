@@ -6,6 +6,12 @@ updated: 2023-03-20T16:32
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: MATH 170E
+
+title: Law of Large Numbers (weak) - lec. 24
+
+layout: note
+
 ---
 # Definitions
 

@@ -4,6 +4,12 @@ quarter: Y3Q1
 created: 2024-05-13 00:22
 updated: Monday 13th May 2024 00:22:36
 course: CS 181
+parent: CS 181
+
+title: 7 - Pushdown Automata
+
+layout: note
+
 ---
 ## Basic Notions
 - PDA, like NFA but with a stack feature, init empty

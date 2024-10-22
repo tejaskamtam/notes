@@ -5,6 +5,12 @@ created: 2023-01-25T12:41
 updated: 2023-01-31T20:19
 📕 courses:
   - "[[Physics 1C- EM, Waves, & Optics]]"
+parent: PHYSICS 1C
+
+title: Electromagnetic Induction - ch. 29
+
+layout: note
+
 ---
 # Definitions
 

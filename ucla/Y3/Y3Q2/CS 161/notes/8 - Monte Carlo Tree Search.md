@@ -5,6 +5,12 @@ created: 2024-02-12 14:25
 updated: Monday 12th February 2024 14:25:13
 course: CS 161
 📕 courses:
+parent: CS 161
+
+title: 8 - Monte Carlo Tree Search
+
+layout: note
+
 ---
 ## Algo
 - random simulation

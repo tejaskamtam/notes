@@ -6,6 +6,12 @@ updated: 2023-02-03T20:01
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: MATH 170E
+
+title: Special Expectation - lec. 9
+
+layout: note
+
 ---
 # Definitions
 

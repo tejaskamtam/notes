@@ -4,6 +4,12 @@ quarter: Y3Q1
 created: 2024-04-03 15:06
 updated: Wednesday 3rd April 2024 15:06:36
 course: CS 181
+parent: CS 181
+
+title: 2 - Nondeterminism
+
+layout: note
+
 ---
 ## Basic Notions and Examples
 - NFAs  may have any number of transitions on a given symbol (i.e. multiple paths from the same symbol of the alphabet)

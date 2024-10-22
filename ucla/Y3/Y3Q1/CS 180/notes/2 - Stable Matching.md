@@ -5,6 +5,12 @@ created: 2023-10-03T07:51
 updated: 2023-10-03T09:02
 📕 courses:
   - "[[CS 180 - Algorithms]]"
+parent: CS 180
+
+title: 2 - Stable Matching
+
+layout: note
+
 ---
 # Supplemental
 

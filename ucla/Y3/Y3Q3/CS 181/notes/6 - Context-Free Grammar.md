@@ -4,6 +4,12 @@ quarter: Y3Q1
 created: 2024-04-29 14:11
 updated: Monday 29th April 2024 14:11:31
 course: CS 181
+parent: CS 181
+
+title: 6 - Context-Free Grammar
+
+layout: note
+
 ---
 ## Basic Notions
 - The alphabet (also called terminals) can be defined as a set $\Sigma$

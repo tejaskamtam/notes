@@ -1,5 +1,11 @@
 ---
 annotation-target: "![[Locke.pdf]]"
+parent: reading notes
+
+title: Locke
+
+layout: note
+
 ---
 
 

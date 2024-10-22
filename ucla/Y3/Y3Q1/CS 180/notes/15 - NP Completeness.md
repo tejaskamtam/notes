@@ -6,6 +6,12 @@ updated: Tuesday 5th December 2023 08:13:04
 course: CS 180
 📕 courses:
   - "[[CS 180 - Algorithms]]"
+parent: CS 180
+
+title: 15 - NP Completeness
+
+layout: note
+
 ---
 ## NP-Completeness
 - until this point all algos are polynomial

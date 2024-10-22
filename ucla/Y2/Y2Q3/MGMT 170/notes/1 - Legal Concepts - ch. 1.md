@@ -5,6 +5,12 @@ created: 2023-04-03T11:39
 updated: 2023-06-15T10:07
 📕 courses:
   - "[[MGMT 170- Real Estate Finance]]"
+parent: MGMT 170
+
+title: 1 - Legal Concepts - ch. 1
+
+layout: note
+
 ---
 # Supplemental
 

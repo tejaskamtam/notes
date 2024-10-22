@@ -6,6 +6,12 @@ updated: Monday 23rd October 2023 19:42:23
 course: HIST 12B
 📕 courses:
   - "[[HIST 12B - Neoliberalism]]"
+parent: discussion
+
+title: Freedom Budget, Tillmon, Stein, McNally
+
+layout: note
+
 ---
 
 ## "A Freedom Budget for All Americans: A Summary" (1967)

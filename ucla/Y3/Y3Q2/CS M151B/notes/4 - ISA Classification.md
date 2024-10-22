@@ -5,6 +5,12 @@ created: 2024-01-22 21:47
 updated: Monday 22nd January 2024 21:47:09
 course: CS 161
 📕 courses:
+parent: CS M151B
+
+title: 4 - ISA Classification
+
+layout: note
+
 ---
 ## ISA classification
 ### CISC

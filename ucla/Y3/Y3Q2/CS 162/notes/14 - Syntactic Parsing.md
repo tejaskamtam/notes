@@ -5,6 +5,12 @@ created: 2024-03-11 02:55
 updated: Monday 11th March 2024 02:55:07
 course: CS 162
 📕 courses:
+parent: CS 162
+
+title: 14 - Syntactic Parsing
+
+layout: note
+
 ---
 ## Syntactic Parsing
 - syntax is the characteristics of words and interdependent relations that help w interpretation

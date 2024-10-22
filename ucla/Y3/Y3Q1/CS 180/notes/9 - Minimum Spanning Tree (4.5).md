@@ -6,6 +6,12 @@ updated: Thursday 26th October 2023 08:03:31
 course: CS 180
 📕 courses:
   - "[[CS 180 - Algorithms]]"
+parent: CS 180
+
+title: 9 - Minimum Spanning Tree (4.5)
+
+layout: note
+
 ---
 ## Supplemental
 ### Searching

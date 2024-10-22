@@ -5,6 +5,12 @@ created: 2024-02-29 16:17
 updated: Thursday 29th February 2024 16:17:34
 course: CS M151B
 📕 courses:
+parent: CS M151B
+
+title: 15 - Caches
+
+layout: note
+
 ---
 ## Cache Sizing and Indexing
 - If we can afford 512 bytes of cache storage but our memory bus limit is 64 bytes

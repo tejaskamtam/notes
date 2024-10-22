@@ -4,6 +4,12 @@ quarter: Y3Q1
 created: 2024-05-13 14:09
 updated: Monday 13th May 2024 14:09:46
 course: CS 181
+parent: CS 181
+
+title: 8 - Non-context-free Grammar
+
+layout: note
+
 ---
 ## Pumping Lemma for CFL
 - similar to one for reg languages but:

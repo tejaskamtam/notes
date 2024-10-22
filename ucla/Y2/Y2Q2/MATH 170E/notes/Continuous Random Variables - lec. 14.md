@@ -6,6 +6,12 @@ updated: 2023-02-16T23:48
 📕 courses:
   - "[[Math 170E- Probability Theory]]"
 tags: math
+parent: MATH 170E
+
+title: Continuous Random Variables - lec. 14
+
+layout: note
+
 ---
 # Definitions
 

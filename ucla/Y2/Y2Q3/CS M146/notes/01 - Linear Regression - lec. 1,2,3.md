@@ -5,6 +5,12 @@ created: 2023-04-07T12:06
 updated: 2023-05-01T15:32
 📕 courses:
   - "[[CS M146- Machine Learning]]"
+parent: CS M146
+
+title: 01 - Linear Regression - lec. 1,2,3
+
+layout: note
+
 ---
 # Definitions
 

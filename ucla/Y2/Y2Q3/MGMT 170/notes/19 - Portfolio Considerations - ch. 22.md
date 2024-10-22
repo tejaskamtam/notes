@@ -5,6 +5,12 @@ created: 2023-06-07T11:02
 updated: 2023-06-15T10:08
 📕 courses:
   - "[[MGMT 170- Real Estate Finance]]"
+parent: MGMT 170
+
+title: 19 - Portfolio Considerations - ch. 22
+
+layout: note
+
 ---
 # Supplemental
 

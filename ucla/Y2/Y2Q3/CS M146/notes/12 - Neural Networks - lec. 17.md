@@ -5,6 +5,12 @@ created: 2023-05-24T14:19
 updated: 2023-05-31T14:07
 📕 courses:
   - "[[CS M146- Machine Learning]]"
+parent: CS M146
+
+title: 12 - Neural Networks - lec. 17
+
+layout: note
+
 ---
 # Supplemental
 

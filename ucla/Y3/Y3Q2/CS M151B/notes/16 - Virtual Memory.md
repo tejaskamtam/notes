@@ -5,6 +5,12 @@ created: 2024-03-05 17:17
 updated: Tuesday 5th March 2024 17:17:43
 course: CS M151B
 📕 courses:
+parent: CS M151B
+
+title: 16 - Virtual Memory
+
+layout: note
+
 ---
 ## Background
 - modern apps are multi-program

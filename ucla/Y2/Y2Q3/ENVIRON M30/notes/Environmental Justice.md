@@ -5,6 +5,12 @@ created: 2023-05-02T10:41
 updated: 2023-05-02T10:44
 📕 courses:
   - "[[Environ M30- Environmental Literature]]"
+parent: ENVIRON M30
+
+title: Environmental Justice
+
+layout: note
+
 ---
 # Supplemental
 

@@ -5,6 +5,12 @@ created: 2024-01-11 16:10
 updated: Thursday 11th January 2024 16:10:56
 course: CS M151B
 📕 courses:
+parent: CS M151B
+
+title: 2 - Abstraction and Computing Architectures
+
+layout: note
+
 ---
 ## Abstraction
 - hardware abstraction

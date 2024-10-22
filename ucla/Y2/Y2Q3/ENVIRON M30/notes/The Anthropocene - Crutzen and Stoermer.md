@@ -5,6 +5,12 @@ created: 2023-04-04T10:23
 updated: 2023-04-05T20:51
 📕 courses:
   - "[[Environ M30- Environmental Literature]]"
+parent: ENVIRON M30
+
+title: The Anthropocene - Crutzen and Stoermer
+
+layout: note
+
 ---
 # Definitions
 

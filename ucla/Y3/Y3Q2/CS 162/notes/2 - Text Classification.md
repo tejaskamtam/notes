@@ -5,6 +5,12 @@ created: 2024-01-11 23:26
 updated: Thursday 11th January 2024 23:26:29
 course: CS 162
 📕 courses:
+parent: CS 162
+
+title: 2 - Text Classification
+
+layout: note
+
 ---
 ## Classifiers
 ### Rule Based Classifier

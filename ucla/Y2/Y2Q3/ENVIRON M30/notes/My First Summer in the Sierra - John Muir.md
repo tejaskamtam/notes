@@ -5,6 +5,12 @@ created: 2023-04-10T23:46
 updated: 2023-04-11T10:37
 📕 courses:
   - "[[Environ M30- Environmental Literature]]"
+parent: ENVIRON M30
+
+title: My First Summer in the Sierra - John Muir
+
+layout: note
+
 ---
 # Summaries and Notes
 

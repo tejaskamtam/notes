@@ -6,6 +6,12 @@ updated: Tuesday 28th November 2023 08:11:36
 course: CS 180
 📕 courses:
   - "[[CS 180 - Algorithms]]"
+parent: CS 180
+
+title: 13 - Flow Network (7.1)
+
+layout: note
+
 ---
 ## Flow Network
 - a weighted directed graph with possible cycles
