@@ -8,7 +8,7 @@ parent: CS 118
 layout: note
 ---
 ## Bridge to Routers
-- Data llink headers came before data link relays (bridges/switches) so they had to adapt
+- Data link headers came before data link relays (bridges/switches) so they had to adapt
 - but routers were first-class creations. The debate is whether to use bridges universally or routers
 - the big problem is no loops in switch topology -> need possibly many intermediaries to communicate despite having fiber or really good hardware between stations
 - switches also cannot handle **address incompatibility** (HDLC vs Ethernet (PPP)), **packet size incompatibility** and **bandwidth incompatibility** (FDDI vs Ether)
