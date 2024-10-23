@@ -1,9 +1,13 @@
 ---
-title: Home
+title: blog
 layout: home
 nav_order: 1
-description: "Tejas' collage of notes and research."
+description: Tejas' Blog & Notes
 permalink: /
 ---
 
-## Home
+## Welcome!👋🏽
+If you enjoy the content, reach out via <a href="https://tejaskamtam.com/#contact">my contact form</a>
+
+---
+

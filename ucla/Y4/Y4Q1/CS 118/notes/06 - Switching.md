@@ -56,7 +56,7 @@ parent: CS 118
 
 ![[Pasted image 20241017151145.png]]
 
-### Routing - MST
+### Routing - Spanning Tree
 
 ![[Pasted image 20241017152640.png]]
 
