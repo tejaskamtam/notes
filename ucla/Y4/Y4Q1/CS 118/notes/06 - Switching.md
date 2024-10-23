@@ -10,7 +10,6 @@ layout: note
 parent: CS 118
 
 ---
-
 ## MAC Address
 
 - `ipconfig` on windows, `ifconfig` on mac -> `ethernet/eth` address
@@ -70,3 +69,4 @@ parent: CS 118
 - multi-cast - sender broadcasts signal to a subset of stations (instead of single)
   - multiple like-kind servers (e.g., file servers) and 1 responds (note requires src mac addr in eth header)
 - vendors get $2^{24}$ unicast and multicast addresses (they get assigned 2, 3 byte venddor identifiers, one with leading 0 bit for unicast and one with leading 1 for multicast addrs)
+- switches just flood if dest is multicast addr

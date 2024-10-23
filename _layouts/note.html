@@ -1,5 +1,6 @@
 ---
 layout: default
+toc: true
 ---
 
 <script>
@@ -25,4 +26,7 @@ layout: default
 <h1>{{ page.title }}</h1>
 <p>{{ page.area }} | {{ page.course }} | {{ page.created }}</p>
 <hr>
-{{ content }}
+<h3>Table of Contents</h3>
+
+
+{{ content | toc }}

@@ -21,6 +21,7 @@ def add_layout_to_frontmatter(file_path):
         if 'parent:' not in frontmatter:
             new_frontmatter = frontmatter.rstrip() + '\nparent: ' + file_path.split('/')[-3] + '\n'
             content = content.replace(frontmatter, new_frontmatter, 1)
+    
     # Write the modified content back to the file
     with open(file_path, 'w', encoding='utf-8') as file:
         file.write(content)
@@ -33,10 +34,25 @@ def process_directory(directory):
                 add_layout_to_frontmatter(file_path)
                 print(f"Processed: {file_path}")
 
-# Set the path to the @ucla/notes folder
-notes_path = os.path.join('ucla')
+def note_util():
+    # Set the path to the @ucla/notes folder
+    notes_path = os.path.join('ucla')
+    # Process all .md files in the folder and its subfolders
+    process_directory(notes_path)
+    print("Finished processing all .md files.")
 
-# Process all .md files in the folder and its subfolders
-process_directory(notes_path)
+def index_util(directory):
+    for root, _, files in os.walk(directory):
+        for file in files:
+            if file == 'index.md':
+                file_path = os.path.join(root, file)
+                # replace layout: note with layout: index
+                with open(file_path, 'r', encoding='utf-8') as file:
+                    content = file.read()
+                content = content.replace('layout: note', 'layout: index')
+                with open(file_path, 'w', encoding='utf-8') as file:
+                    file.write(content)
+                print(f"Processed: {file_path}")
 
-print("Finished processing all .md files.")
+
+# note_util()

@@ -23,6 +23,19 @@ exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME", ".ruby-ver
 markdown: kramdown
 latex: mathjax
 
+plugins:
+  - jekyll-toc
+
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      toc: true
+
+kramdown:
+  parse_block_html: true
+
 # Theme settings
 theme: "just-the-docs"
 color_scheme: dark
