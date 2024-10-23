@@ -50,6 +50,7 @@ layout: note
 - late 1980s - multiple providers
 ### Domain Name Server
 - servers that map domain names (urls) to 32-bit (5-byte) IP addrs
+- DNS 
 ### DHCP Server
 - when a station or node connects, it multicasts to DHCP server which allocates a local IP for the node, the prefix tells us the router IP
 - this is slightly different when considering local vs public IPs
