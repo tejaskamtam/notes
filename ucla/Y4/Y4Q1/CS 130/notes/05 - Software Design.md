@@ -293,3 +293,42 @@ print(singleton1.some_business_logic())  # Output: Doing some business logic
 #### TLDR:
 
 The Singleton pattern is a useful design pattern when you need to ensure that a class has only one instance and provide a global point of access to it. While it offers several advantages, such as controlled access and lazy initialization, it also comes with potential drawbacks, particularly in terms of global state and testing challenges. Careful consideration should be given to its use in software design.
+
+### Adapter Pattern
+- implemented to adapt an existing component to a new interface/system ![[Pasted image 20241023181116.png]]
+- adapters **extend/implement** the interface/class so, depending on lang, they MUST implement all functionality of the interfaces they extend
+#### Java Example
+- existing ![[Pasted image 20241023181142.png]]
+- adapted ![[Pasted image 20241023181200.png]]
+#### Adapter Variant
+- multiple inheritance, e.g. multi-interface implementation![[Pasted image 20241023181458.png]]
+### Facade Pattern
+- given a complex system (complex interrelation of classes and methods), implement a Facade to simplify the interface to the complex system ![[Pasted image 20241023182158.png]]
+#### Java example
+- facade simplifies multi-class interconnections ![[Pasted image 20241023182230.png]]
+#### Facade vs Adapter
+- facades associate objects as attributes -> this allows them to not have to implement all functionality of the interface/object/class
+- facade focuses on simplification while adapters perform interface "conversion" ![[Pasted image 20241023182354.png]]
+
+### Proxy Pattern
+- limits access to an object by requiring interfacing through middleware (a proxy) ![[Pasted image 20241023184243.png]]
+- **Virtual proxy** - can be a placeholder for expensive to create objects. The real object is only created when a client first requests/accesses the object.
+- **Remote proxy** - provides a local representative for an object that resides in a different address space. This is what "stub" code in remote-procedure-calls (RPC) provides.
+- **Protective proxy** - controls access to a sensitive master object. The surrogate object checks that the caller has the access permissions required prior to forwarding the request.
+- **Smart proxy** - adds additional actions when an object is accessed. Typical uses include:
+	- Counting the number of references to the real object so that it can be freed automatically
+	- Checking that the real object is locked before it is accessed to ensure immutability
+#### Java Example
+- proxy internet to act as a firewall ![[Pasted image 20241023184302.png]]
+- proxies **implement/extend** the interface so, depending on the lang, they MUST implement all functionality of the interface
+#### Proxy vs Adapter vs Facade
+- proxy vs facade - facades don't implement/extend
+- proxy vs adapter - proxy and the real subject extend the same interface while in an adapter, the adaptee does not extend the target ![[Pasted image 20241023184644.png]]
+- proxies could be implemented as decorators/wrappers
+
+### Composite Pattern
+- a hierarchy of classes where higher order classes can **contain** lower order classes (usually tree structure) ![[Pasted image 20241023185141.png]]
+- a composite object **must** implement the hierarchy structure as an individual object ![[Pasted image 20241023185205.png]]
+	- aside: associations/contains must point to supertypes if the element can be of many types
+#### Java Example
+- box example as a composite object![[Pasted image 20241023185222.png]]

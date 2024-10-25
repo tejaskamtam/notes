@@ -11,7 +11,7 @@ parent: CS 118
 
 ---
 
-## WLAN: IEEE 702.11b
+## WLAN: IEEE 802.11b
 
 - 1, 2, 5.5, or 11 Mbps
   - User data rate max approx 6 Mbps
@@ -32,4 +32,3 @@ parent: CS 118
 - B respond with clear to send CTS broadcast
 - C hears CTS and defers
 
-### Backoff Interval

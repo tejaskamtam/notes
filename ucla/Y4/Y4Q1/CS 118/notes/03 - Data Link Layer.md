@@ -138,7 +138,7 @@ parent: CS 118
 - pipe size (bandwidth-delay product) = transmission rate $\times$ round-trip propagation delay
 - pipe size (and prop delay) tells us our pipe/link utilization e.g., stop and wait frames (send next frame after ack) ![[Pasted image 20241010151808.png]]
 
-### Sliding Window Protocoll
+### Sliding Window Protocol
 
 - **Window**: Sender can send a window of outstanding frames before getting any acks. Lower window edge $L$, can send up to $L + w - 1$.
 - **Receiver numbers**: receiver has a receive sequence number R, next number it expects. $L$ and $R$ are initially $0$.
