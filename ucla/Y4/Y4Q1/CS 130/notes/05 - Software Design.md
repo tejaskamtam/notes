@@ -29,7 +29,7 @@ layout: note
 
 ## Gang of Four Design Patterns
 ![[Pasted image 20241022224438.png]]
-
+## GoF Creational Patterns
 ### Factory Method Pattern
 The Factory Method design pattern is a creational design pattern that provides an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created. This pattern is particularly useful when the exact type of the object to be created isn't known until runtime or when the creation process involves complex logic.
 
@@ -294,6 +294,7 @@ print(singleton1.some_business_logic())  # Output: Doing some business logic
 
 The Singleton pattern is a useful design pattern when you need to ensure that a class has only one instance and provide a global point of access to it. While it offers several advantages, such as controlled access and lazy initialization, it also comes with potential drawbacks, particularly in terms of global state and testing challenges. Careful consideration should be given to its use in software design.
 
+## GoF Structural Patterns
 ### Adapter Pattern
 - implemented to adapt an existing component to a new interface/system ![[Pasted image 20241023181116.png]]
 - adapters **extend/implement** the interface/class so, depending on lang, they MUST implement all functionality of the interfaces they extend
@@ -332,3 +333,62 @@ The Singleton pattern is a useful design pattern when you need to ensure that a 
 	- aside: associations/contains must point to supertypes if the element can be of many types
 #### Java Example
 - box example as a composite object![[Pasted image 20241023185222.png]]
+
+## GoF Behavioral Patterns
+
+### Strategy Pattern
+- problem: class can do task in many ways at many times -> bloated and fragile -> apply strategy pattern to mitigate ![[Pasted image 20241028190956.png]]
+- e.g. consider inheritance is not alwayss the best due to overriding many funcs in subclass, instead consider interface extension ![[Pasted image 20241028191034.png]]
+#### Java Example
+![[Pasted image 20241028191050.png]]
+#### Strategy vs Abstract Factory
+![[Pasted image 20241028191128.png]]
+
+### Observer Pattern
+- problem: need to propagate state changes to all dependent objects ![[Pasted image 20241028191237.png]]
+#### Weather Station Example
+- core weather service must propagate new data to visual, api, displays ![[Pasted image 20241028191349.png]]
+```java
+interface Subject {
+	public void registerObserver(Observer o);
+	public void removeObserver(Observer o);
+	public void notifyObservers();
+}
+interface Observer { public void update(); }
+```
+![[Pasted image 20241028191451.png]]
+
+### Mediator Pattern
+- remove coupling between frequently interactive applications without having to change interactions ![[Pasted image 20241028191610.png]]
+- pros:
+	- inc reusability of objects supported by Mediator by decoupling
+	- simplify maintenance by centralizing
+	- minimize diversity of messages sent between interacting services
+- cons:
+	- mediator itself may become too complex
+	- exposes single point of vulnerability and compelxity
+#### Dialog as Mediator
+![[Pasted image 20241028191804.png]]
+![[Pasted image 20241028191816.png]]
+
+#### Mediator vs Observer
+- mediator abstracts into one to many comms
+	- from possibly many comms endpoints to one mediator sends -> all dependencies
+- observer abstracts service into many to many comms
+	- from one core service/data endpoint to abstracted dependencies
+
+### Command Pattern
+- need to issue requests to objects without knowing the receiver or how request will be handle, e.g., remote control (circuits abstracted to commands on controller) ![[Pasted image 20241028192409.png]]
+- possibly complicated by storing state as some functions may need undo/redo, some may not support - can't just implement "execute" for all
+- code example for remote control ![[Pasted image 20241028192431.png]]
+
+### State Pattern
+- when behavior is dependent on state e.g., gumball machine ![[Pasted image 20241028192547.png]]
+- ![[Pasted image 20241028192706.png]]
+- ![[Pasted image 20241028192717.png]]
+- pros:
+	- encapsulates all state behavior into one object
+	- avoids state inconsistency
+- cons:
+	- bulky code -> increases number of objects
+	- state interface is brittle, may require propagation to dependencies for new states
