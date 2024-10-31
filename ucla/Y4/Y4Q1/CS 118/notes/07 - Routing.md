@@ -92,6 +92,36 @@ layout: note
 ![[Pasted image 20241022153223.png]]
 
 
+## ARP
+- sends signal on connected mac terminal to lan, router picks up and propagates back its mac addr, now client knows which router to send to the next hop
+ARP, or Address Resolution Protocol, is a network protocol used to map an Internet Protocol (IP) address to a physical machine address that is recognized in the local network. This is particularly important in IPv4 networks, where devices communicate using IP addresses, but the actual data transmission occurs over the physical network using MAC (Media Access Control) addresses.
+
+### How ARP Works:
+
+1. **ARP Request**: When a device wants to communicate with another device on the same local network, it needs to know the MAC address corresponding to the target device's IP address. If the sender does not have this information in its ARP cache (a table that stores IP-to-MAC address mappings), it broadcasts an ARP request packet to all devices on the local network. This packet contains the sender's IP and MAC addresses, as well as the target IP address for which it is seeking the MAC address.
+
+2. **ARP Reply**: All devices on the local network receive the ARP request, but only the device with the matching IP address will respond. This device sends back an ARP reply, which includes its MAC address. The reply is sent directly to the sender's MAC address.
+
+3. **Updating ARP Cache**: Upon receiving the ARP reply, the sender updates its ARP cache with the new IP-to-MAC address mapping, allowing for faster communication in future interactions without needing to broadcast another ARP request.
+
+### ARP Cache:
+
+The ARP cache is a temporary storage area where the mappings of IP addresses to MAC addresses are kept. Entries in the ARP cache can expire after a certain period, requiring the device to send a new ARP request if it needs to communicate with that IP address again.
+
+### Types of ARP:
+
+1. **Proxy ARP**: This allows a router to respond to ARP requests on behalf of another device that is on a different network. This can help devices communicate across different subnets.
+
+2. **Gratuitous ARP**: This is a type of ARP request sent by a device to announce its IP address to the network. It can be used to update other devices' ARP caches or to detect IP address conflicts.
+
+### Security Considerations:
+
+ARP is inherently insecure because it does not include any authentication mechanisms. This makes it susceptible to attacks such as ARP spoofing, where a malicious actor sends false ARP messages to associate their MAC address with the IP address of another device, potentially allowing them to intercept or manipulate network traffic.
+
+### Conclusion:
+
+ARP is a fundamental protocol in networking that enables devices to discover each other's MAC addresses based on their IP addresses, facilitating communication within local networks. Understanding ARP is crucial for network configuration, troubleshooting, and security.
+
 ## Bandwidth Incompatibility (Path MTU)
 - sps packet is larger than the data link bandwidth ![[Pasted image 20241022153650.png]]
 - og IP said to fragment and reassaablle but was too expensive
@@ -101,3 +131,18 @@ layout: note
 - Sol2 - Multibit trie - to slow and tm memory ![[Pasted image 20241022154056.png]]
 - Sol3 - ternary CAM (content addressable memory) - memory where each bit can be 0, 1, or \* that can be searched in parallel because we search by content instead of id or position- but requires tm power at high speed access, low longevity of memory ![[Pasted image 20241022154314.png]]
 - diff router size ue diff types: compressed multi-bit tries, ternary CAMs
+
+## Route Computation
+- Flavors:
+	- Intradomain routing - within an autonomous entity
+		- Distance vector - problems with count to infinity
+		- Link State - often used
+	- Interdomain routing - between ISPs
+### Distance Vector, Gossip
+- Routers begin with comms between themselves and figure out neighbors and hops away from routers >1 hop -> propagate
+- bad if a router fails then no way to know neighbors until they tell u they are there so assume thye are and lead to infinite hop count?
+- Now all vectors know their distances to all other routers
+	- ![[Pasted image 20241029143718.png]]
+### Link State
+- each router store its nuclear neighbors as map ![[Pasted image 20241029143936.png]]
+- now use any shortest path - Djikstra
