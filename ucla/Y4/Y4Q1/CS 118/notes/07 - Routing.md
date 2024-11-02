@@ -48,10 +48,12 @@ layout: note
 	- was shutdown by gov too risky
 - 1983, NSFNET - 1983 ARPANET splits up into MILNET and ARPANET. In 1984 NSF establishes NSFNET to be backbone.  Campuses attached to backbone via regional networks (NYSERNET etc.) Strict hierarchy breaks down because of direct connections between providers
 - late 1980s - multiple providers
-### Domain Name Server
+### Domain Name Server (DNS)
 - servers that map domain names (urls) to 32-bit (5-byte) IP addrs
-- DNS 
+- hierarchical, local DNS knows translations for all in network devices, then subnet IPs and move up the hierarchy for wider prefixes
+- then there are root DNSs which store common IP translations, e.g. google DNS IP: `1.1.1.1`
 ### DHCP Server
+- dynamic host control protocol
 - when a station or node connects, it multicasts to DHCP server which allocates a local IP for the node, the prefix tells us the router IP
 - this is slightly different when considering local vs public IPs
 ### Original/Old Model
@@ -65,9 +67,15 @@ layout: note
 - sol - change IP forwarding to longest matching prefix
 
 ### Subnetting/Supernetting
+- slash at the end of an IP tells us how many of the prefix bits to consider to route
+- this simplifies comms between networks/LANs by only considering the prefix that matters because all network devices within the network have the same IP prefix
+- e.g., 128.32.0.0/16 => all network devices share the same first 16 bits 128.32
+- can encode with slash bits or subnet mask using bitwise & between ip and mask
+	- use 1s for all leading bits that matter i.e. in ints: 255.255.0.0 => \[0-255\].\[0-255\].x.x 
 ![[Pasted image 20241022151004.png]]
 
 ### New IP Forwarding
+- CIDR - classless inter-domain routing - no more fixed length prefixes (IP classes from original model)
 1. lookup - find longest matching prefix P of dest IP addr from forwarding table
 2. default or local
 	1. if P is nil -> forward on default
