@@ -151,6 +151,19 @@ ARP is a fundamental protocol in networking that enables devices to discover eac
 - bad if a router fails then no way to know neighbors until they tell u they are there so assume thye are and lead to infinite hop count?
 - Now all vectors know their distances to all other routers
 	- ![[Pasted image 20241029143718.png]]
+#### Distance Vector (DV) Database
+![[Pasted image 20241105141041.png]]
 ### Link State
 - each router store its nuclear neighbors as map ![[Pasted image 20241029143936.png]]
+- Then each node floods its LSP to all other nodes
 - now use any shortest path - Djikstra
+- broadcast local state via Link State Packets (LSPs)
+- but this causes underutilization - Djikstra enables only shortest path -> many links of high bandwidth unused, so we should compute routes using distributed algos
+#### LSP Generation
+![[Pasted image 20241105141145.png]]
+- on failure ![[Pasted image 20241105141208.png]]
+
+### Wide Area SDN
+- Google B4, Microsoft SWAN, Amazon SDWAN
+- within a WAN, just send all packets to the Central SDN controller instead of finding the shortest path
+- just forward all packets to SDN and run an algo to find best distributed route, forget protocols

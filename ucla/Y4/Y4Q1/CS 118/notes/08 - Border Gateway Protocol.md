@@ -72,6 +72,9 @@ layout: note
 	- add community tag to routing packets which is the same tag for all ISPs the AS pay for so enable routes if `community == D` ![[Pasted image 20241031153038.png]]
 - route aggregation - combine paths to the same AS to reduce cached routes
 	- now create routes as sets of route via union
+### BGP Optimization Preference
+![[Pasted image 20241105141447.png]]
+
 ## BGP Drawbacks
 - Instability
 	- Route flapping (network x.y/z goes down… tell everyone)
@@ -85,6 +88,11 @@ layout: note
 - multi-homing gaming
 	- extra reliability but vulnerable to gaming by switching ISP networks depedning on cost
 	- ISP usually charge at 95th percentile traffic/usage
+
+### BGP is Suboptimal
+![[Pasted image 20241105141514.png]]
+- Google Espresso, use central SDN to determine which BGP router to forward to external outside of WAN
+- "hack" others' BGP by calculating latency across external WANs and store in central SDN to forward externally
 
 ### \[Optional\] Scaling iBGP
 - The default way of a full mesh between all border routers has O(N^2) overhead, where N is # border routers
