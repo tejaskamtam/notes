@@ -121,3 +121,94 @@ layout: note
 - No head of line blocking: can do HTTP/2 over a single TCP connection but a single loss stalls all streams.  Not so in QUIC
 - Shared congestion information: as we will see it takes TCP a long time to ramp up.  In QUIC all congestion information is shared. 
 - Wave of future: 9% of all websites use QUIC (4/2023). 40% of Chrome traffic uses QUIC 2
+
+
+## Congestion/Flow Control
+- **Flow Control** - Changing sender speed to match receiver speed
+- **Congestion Control** - Changing sender speed to match network speed
+### Flow Control
+![[Pasted image 20241114145012.png]]
+### Congestion Control
+- different connection bandwidths leads to congestion on high output senders![[Pasted image 20241114145041.png]]
+- queue builds if send rate > drain rate -> dropped packets
+- "goodput" amount of packets that come "out" of the network ![[Pasted image 20241114145810.png]]
+- Congestion causes both collapsed throughput ("goodput") and massive latency ![[Pasted image 20241114150031.png]]
+#### Fair Bandwidth Allocation
+- Can use **Ford-Fulkerson Maximum Flow Algo** ![[Pasted image 20241114145736.png]]
+
+#### Mitigation
+- ![[Pasted image 20241114152455.png]]
+- **"Slow start"** - start with sender window size of 1; double every time we get a successful ack
+- tighten window if timer elapses or 3 dup acks
+- **AIMD** - Additive Increase, Multiplicative Decrease - tighten multiplicatively (div by 2) and open additively (by MSS) the window size (aperture)
+	- used for congestion avoidance (proactive)
+- **ECN** - Explicit Congestion Notification - ECN bit, requires another packet from dest to sender
+- Proactive Congestion Control - stay left of knee; Reactive - stay left of cliff ![[Pasted image 20241114151414.png]]
+	- Compromise: adaptive approximation 
+		- If congestion signaled, reduce sending rate by x
+		- If data delivered successfully, increase sending rate by y
+- Basic Algo ![[Pasted image 20241114151750.png]]
+	- ssthresh cliff to mitigate exponential opening on slow start![[Pasted image 20241114151941.png]]
+	- ![[Pasted image 20241114152053.png]]
+#### Probing the Network
+- ![[Pasted image 20241114151730.png]]
+- ![[Pasted image 20241114151907.png]]
+#### ECN
+- Explicit congestion signaling
+	- Source Quench: ICMP message from router to sender
+	- DECBit / Explicit Congestion Notification (ECN): 
+		- Router marks packet based on queue occupancy (i.e. indication that packet encountered congestion along the way)
+		- Receiver tells sender if queues are getting too full
+- Implicit congestion signaling
+	- Packet loss
+		- Assume congestion is primary source of packet loss
+		- Lost packets indicate congestion
+	- Packet delay
+		- Round-trip time increases as packets queue
+		- Packet inter-arrival time is a function of bottleneck link
+#### Throttling
+- Window-based (TCP)
+	- Constrain number of outstanding packets allowed in network
+	- Increase window to send faster; decrease to send slower
+	- Pro: Cheap to implement, good failure properties
+	- Con: Creates traffic bursts (requires bigger buffers)
+- Rate-based (many streaming media protocols)
+	- Two parameters (period, packets)
+	- Allow sending of x packets in period y
+	- Pro: smooth traffic
+	- Con: fine-grained per-connection timers,  what if receiver fails?
+#### Slow Start
+- ![[Pasted image 20241114151925.png]]
+- ![[Pasted image 20241114151959.png]]
+
+#### Fast Recovery
+- Fast retransmit
+	- Timeouts are slow (default often 200 ms or 1 second)
+	- When packet is lost, receiver still ACKs last in-order packet
+	- Use 3 duplicate ACKs to indicate a loss; detect losses quickly
+- Fast recovery
+	- Goal: avoid stalling after loss 
+	- If there are still ACKs coming in, then no need for slow start
+	- If a packet has made it through -> we can send another one
+	- **Divide cwnd by 2** after fast retransmit
+	- Increment cwnd by 1 MSS for each additional duplicate ACK
+- e.g. ![[Pasted image 20241114152221.png]]
+- all together ![[Pasted image 20241114152249.png]]
+
+#### Open Problems
+- most connections short, possibly no gain from low start
+- magic number to run low tart or fast recovery, etc.
+- shared bandwidth for UDP and TCP
+- decide which packets can be dropped: syn, ack, none
+
+### Router Scheduling
+- router also need to schedule packets to support congestion control ![[Pasted image 20241114152608.png]]
+- use fair queueing -> also allow TCP-UDP bandwidth share ![[Pasted image 20241114152750.png]]
+- Round-Robin ![[Pasted image 20241114152803.png]]
+- but we need to weight round robin due to differing packet sizes on top of queue frequent use
+#### DRR - Deficit Round Robin
+- use a deficit counter that starts with some quantum size, then decrease the deficit by the packet size sent ![[Pasted image 20241114152933.png]]
+- after packet sent at robin pointer ![[Pasted image 20241114152942.png]]
+- also enable **Random Early Detect** - randomly droop a packet early before congestion if ECN not set ![[Pasted image 20241114153154.png]]
+#### Novel Approaches
+![[Pasted image 20241114153231.png]]

@@ -228,14 +228,30 @@ In distance vector routing, a router **R** computes its own distance **Distance(
 ### Q4.1 - Shortest Path
 > What is the shortest path between R1 and P? What is the largest packet size that is guaranteed to get through without fragmentation on this path?
 
+The shortest path `R1->P = R1->R2->R4->R3->P`
+The largest packet size guaranteed to route `R1->P` is the minimum MPS across the path: 512.
 
 ### Q4.2 - Min Max Packet Size
 > Assume each router has receives the additional variables Distance(P, N) and MinMaxPacketSize (P, N) from each neighbor N. Write an equation to compute these two variables from the corresponding variables of all a router’s neighbors.
 
+For a router $R$ that has $N$ edges with values $\text{Cost}(R,n),\space \text{MPS}(R,n)$ for each of $n\in N$ neighbors:
+
+$$\text{Distance}(P,R) = \min_{n\in N}\Big( \text{Cost}(R,n) + \text{Distance}(P,n)\Big)$$
+
+$$\text{MinMaxPacketSize}(P,R) = \min_{n\in N}\Big( \text{MPS}(R,n) + \text{MinMaxPacketSize}(P,n)\Big)$$
 
 ### Q4.3 - Packet Size Propagation
 > Assume we are calculating these estimates only for distances to P. Assume that at t = 0, router R3 has Distance (P, R3) = 1 and MinMaxPacketSize (P, R3) = 8000 and all other routers have the distance and min packet size to P set to a default of infinity. Assume that at t = 0, each router sends an update to each neighbor.  Draw several pictures of the same topology with the changing estimates of each router for its two variables based on the equation you wrote down until all estimates stop changing. After how much time do all the estimates converge (i.e. do not change any more)?
 
+I've only highlighted the time steps in which distance vector propagation causes the Distance to P and Minimum MPS to P to change. There are some timesteps after that propagate the latest changed node's distance vectors but does not result in the state of other nodes changing.
+
+![[Pasted image 20241114111855.png]]
+![[Pasted image 20241114111909.png]]
+![[Pasted image 20241114111922.png]]
 
 ### Q4.4 - Crash
 > Now assume the link to R2 to R4 crashes at time t = 7.  Draw similar pictures for the time it takes to converge after the crash.
+
+I've only highlighted the time steps in which distance vector propagation causes the Distance to P and Minimum MPS to P to change. There are some timesteps after that propagate the latest changed node's distance vectors but does not result in the state of other nodes changing.
+
+![[Pasted image 20241114113200.png]]
