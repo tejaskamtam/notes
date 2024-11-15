@@ -245,9 +245,8 @@ $$\text{MinMaxPacketSize}(P,R) = \min_{n\in N}\Big( \text{MPS}(R,n) + \text{MinM
 
 I've only highlighted the time steps in which distance vector propagation causes the Distance to P and Minimum MPS to P to change. There are some timesteps after that propagate the latest changed node's distance vectors but does not result in the state of other nodes changing.
 
-![[Pasted image 20241114111855.png]]
-![[Pasted image 20241114111909.png]]
-![[Pasted image 20241114111922.png]]
+![[Pasted image 20241115124512.png]]
+![[Pasted image 20241115124525.png]]
 
 ### Q4.4 - Crash
 > Now assume the link to R2 to R4 crashes at time t = 7.  Draw similar pictures for the time it takes to converge after the crash.
