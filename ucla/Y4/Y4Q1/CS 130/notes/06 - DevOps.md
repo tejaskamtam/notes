@@ -1,7 +1,7 @@
 ---
 title: 06 - DevOps
 area: ucla
-created: 2024-59-03
+created: 2024-11-03
 course: CS 130
 parent: CS 130
 layout: note

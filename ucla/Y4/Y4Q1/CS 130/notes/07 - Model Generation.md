@@ -1,7 +1,7 @@
 ---
 title: 07 - Code Generation
 area: ucla
-created: 2024-26-20
+created: 2024-11-20
 course: CS 130
 parent: CS 130
 layout: note

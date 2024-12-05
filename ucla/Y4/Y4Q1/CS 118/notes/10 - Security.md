@@ -1,7 +1,7 @@
 ---
 title: 10 - Security
 area: ucla
-created: 2024-12-07
+created: 2024-11-07
 course: CS 118
 parent: CS 118
 layout: note

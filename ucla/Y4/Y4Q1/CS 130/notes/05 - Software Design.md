@@ -1,7 +1,7 @@
 ---
 title: 05 - Software Design
 area: ucla
-created: 2024-36-22
+created: 2024-10-22
 course: CS 130
 parent: CS 130
 layout: note

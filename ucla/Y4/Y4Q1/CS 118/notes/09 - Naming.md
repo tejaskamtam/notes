@@ -1,7 +1,7 @@
 ---
 title: 09 - Naming
 area: ucla
-created: 2024-17-05
+created: 2024-11-05
 course: CS 118
 parent: CS 118
 layout: note

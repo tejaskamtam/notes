@@ -1,7 +1,7 @@
 ---
 title: 08 - Border Gateway Protocol
 area: ucla
-created: 2024-59-31
+created: 2024-10-31
 course: CS 118
 parent: CS 118
 layout: note

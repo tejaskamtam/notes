@@ -3,7 +3,7 @@ area: ucla
 quarter: Y4Q1
 created: 2024-10-16 16:44
 updated: Wednesday 16th October 2024 16:44:13
-course: CS 163
+course: CS 118
 ---
 ### Tejas Kamtam
 ### 305749402
