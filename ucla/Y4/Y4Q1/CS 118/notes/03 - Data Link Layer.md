@@ -8,7 +8,6 @@ title: 03 - Data Link Layer
 
 layout: note
 parent: CS 118
-
 ---
 
 ## Role of Physical Layer Now
@@ -17,12 +16,12 @@ parent: CS 118
 - bits - transmitted at physical layer
 - frame - transmitted at data link layer (ip packet with ethernet header)
 - packet - transmitted at ip/routing layer (tcp packet with ip header)
-- ![[Pasted image 20241008141303.png]]
+- ![[Pasted image 20241008141303.png|300]]
 
 ## Data Link Sublayers
 
 - quasi-reliable 1-hop frame-pipe (router to router)
-- EOD, output from data link is a frame - a group of bits ![[Pasted image 20241008141554.png]]
+- EOD, output from data link is a frame - a group of bits ![[Pasted image 20241008141554.png|300]]
 - **Framing**: breaking up a stream of bits into units called frames so that we can add extra information like destination addresses and checksums to frames.  (Required.)
 - **Error detection**: using extra redundant bits called checksums to detect whether any bit in the frame was received incorrectly. (Required).
 - **Media Access**: multiple senders. Need traffic control to decide who sends next. (Required for broadcast links).
@@ -62,7 +61,7 @@ parent: CS 118
 - add stuffing (stuff some bits) where the flag is found in the data/frame
 - receiver "unstuffs" data e.g., sps flag is 111, then any time we see 111 in the data, add a 0 after -> 111...1110...111
 - irl use byte-stuffing and denote the escape char to prevent false flag assign byte `DLE` and stuff it whenever STX/ETX found in payloaad if you get `DLE` in data then do `DLE_DLE`
-- denote flags as STX/ETX (start/end) ![[Pasted image 20241008150307.png]]
+- denote flags as STX/ETX (start/end) ![[Pasted image 20241008150307.png|300]]
 
 ### Physical Layer Solution
 
@@ -90,13 +89,13 @@ parent: CS 118
 
 ### Simple Divide Checksum
 
-- ![[Pasted image 20241008152751.png]]
+- ![[Pasted image 20241008152751.png|300]]
 
 ### Mod 2 Checksum - CRC (Cyclic Redundancy Check)
 
-- background ![[Pasted image 20241008153149.png]]
-- example, observe remainder is less than generator![[Pasted image 20241008153657.png]]
-- CRC is implemented via LFSR in CPU ![[Pasted image 20241008154152.png]]
+- background ![[Pasted image 20241008153149.png|300]]
+- example, observe remainder is less than generator![[Pasted image 20241008153657.png|300]]
+- CRC is implemented via LFSR in CPU ![[Pasted image 20241008154152.png|300]]
 
 ## Error Recovery (Optional)
 
@@ -113,21 +112,21 @@ parent: CS 118
 
 ### Time-Space Examples
 
-- ![[Pasted image 20241010143342.png]]
-- must return ack to validate the sending of the next packet, must id the packets to detect true duplication vs intended duplicate![[Pasted image 20241010143413.png]]
-- issue with sending acks back-to-back -> require ack ids ![[Pasted image 20241010143534.png]]
+- ![[Pasted image 20241010143342.png|300]]
+- must return ack to validate the sending of the next packet, must id the packets to detect true duplication vs intended duplicate![[Pasted image 20241010143413.png|300]]
+- issue with sending acks back-to-back -> require ack ids ![[Pasted image 20241010143534.png|300]]
 
 ### Stop and Wait Protocol (Send then wait for ack)
 
-- time state diagram ![[Pasted image 20241010145025.png]]
-- global state view of messages in channels ![[Pasted image 20241010144913.png]]
-- code for sender and receiver ![[Pasted image 20241010145056.png]]
+- time state diagram ![[Pasted image 20241010145025.png|300]]
+- global state view of messages in channels ![[Pasted image 20241010144913.png|300]]
+- code for sender and receiver ![[Pasted image 20241010145056.png|300]]
 
 ### Band Invariance
 
 - when receiver processes the message in channel and sends ack, all state are only of 1 number (the id of the latest packet acknowledged) -> thus we can check for correctness of packets by ensuring band invariance
-- prove band invariance by checking state transitions ![[Pasted image 20241010150200.png]]
-- alternating bit recovery code: ![[Pasted image 20241010150219.png]]
+- prove band invariance by checking state transitions ![[Pasted image 20241010150200.png|300]]
+- alternating bit recovery code: ![[Pasted image 20241010150219.png|300]]
 
 ### Performance Measures
 
@@ -136,7 +135,7 @@ parent: CS 118
 - 1-way propagation delay - time for the transmitted bit to reach the receiver; disregarding transmission rate, there is some amount of time it takes for the bit to travel the length of the link - this is the 1 way propagation delay
 - transmission rate - the rate at which bits can be sent over a link, i.e. the number of bits per second - tells us that the second bit may come quickly after the first bit is sent
 - pipe size (bandwidth-delay product) = transmission rate $\times$ round-trip propagation delay
-- pipe size (and prop delay) tells us our pipe/link utilization e.g., stop and wait frames (send next frame after ack) ![[Pasted image 20241010151808.png]]
+- pipe size (and prop delay) tells us our pipe/link utilization e.g., stop and wait frames (send next frame after ack) ![[Pasted image 20241010151808.png|300]]
 
 ### Sliding Window Protocol
 
@@ -144,21 +143,21 @@ parent: CS 118
 - **Receiver numbers**: receiver has a receive sequence number R, next number it expects. $L$ and $R$ are initially $0$.
 - **Sender Code**: Retransmits all frames in current window until it gets an ack. Ack numbered $r$ implicitly acknowledges all numbers $\lt r$.
 - **Two variants**: receiver accepts frames in order only (go-back-N) or buffers out-of-order frames (selective reject)
-- we have batched rejects or selective rejects using complex acks or simple acks but resend all packets in the sliding window of frames sent![[Pasted image 20241010152206.png]]
+- we have batched rejects or selective rejects using complex acks or simple acks but resend all packets in the sliding window of frames sent![[Pasted image 20241010152206.png|300]]
 - code for both implementations
-  - ![[Pasted image 20241010152654.png]]
-  - ![[Pasted image 20241010152708.png]]
-  - ![[Pasted image 20241010152718.png]]
+  - ![[Pasted image 20241010152654.png|300]]
+  - ![[Pasted image 20241010152708.png|300]]
+  - ![[Pasted image 20241010152718.png|300]]
   -
 - implementation details - ONLY for FIFO packets
-  - ![[Pasted image 20241010154221.png]]
-  - ![[Pasted image 20241010154444.png]]
+  - ![[Pasted image 20241010154221.png|300]]
+  - ![[Pasted image 20241010154444.png|300]]
 - flow control - variable size windows, usually et by receiver to prevent backlogging frames (send the right window edge with ack)
 - previously selelctive reject was not allowed as you need long listss/buffers for acks, but now RFC has some allowance
 
 ### Restart signal
 
-- although we can send restarts for error recovery, there is a deterministic protocol violation when restart ack is not sent but datagrams are already sent on line ![[Pasted image 20241015142510.png]]
+- although we can send restarts for error recovery, there is a deterministic protocol violation when restart ack is not sent but datagrams are already sent on line ![[Pasted image 20241015142510.png|300]]
 - so we can instead number the restarts as well
 
 ## Invariants

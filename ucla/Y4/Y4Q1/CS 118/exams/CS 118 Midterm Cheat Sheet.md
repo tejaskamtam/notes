@@ -18,12 +18,12 @@ layout: note
 **Baud Rate** = $\log_2 L\times 2B$ bits/s
 	where $L$ is the number of signal amplitudes
 **Shannon Bound** = $B\log_2 (1+S/2N)$
-	![[Pasted image 20241001171807.png]]
+	![[Pasted image 20241001171807.png|300]]
 **Nyquist-Shannon Sampling Thm** - Anti-aliasing iff $f_s\gt 2f_{\max}$
 	where $f_s$ is sampling freq and $f_\max$ is og max freq
 **Synch. Clock Recovery** - signals require preamble w/ transitions to reduce receiver clock overhead when sampling synchronously
 **Manchester Encoding** - encodes bits to transitions at mid bit width: 1:hi->lo, 0:lo->hi
-	con: 50% efficient - encodes only half bit per transition ![[Pasted image 20241005181812.png]]
+	con: 50% efficient - encodes only half bit per transition ![[Pasted image 20241005181812.png|300]]
 **Alternate Mark Inversion (AMI) Encoding** - encodes bits to alternating voltage levels: 0:0V, 1:$\pm$V. Each bit alternates positive and negative voltage.
 	e.g. `11100111` -> `+-+00+-+`
 	con: issues with long seq of 0s
@@ -38,7 +38,7 @@ layout: note
 **Coax Cable** - high bandwidth, og ether, too clunky replaced by Cat5
 **Fiber Optic Cable** - huge bandwidth, unidirectional, but chromatic and modal (bounce) dispersion, expensive, multichannel via multicolor but expensive with prism to demux color channels
 **Wireless 802.11b** - broadband, requires spectrum allocation, possibly satellite, radio large passes through objects
-![[Pasted image 20241005184705.png]]
+![[Pasted image 20241005184705.png|300]]
 
 ### Data Link Layer
 **Flags** - wrap datagrams to fragment into frames, signify start and end
@@ -46,11 +46,11 @@ layout: note
 **PPP (Ethernet)** - byte stuffing, with escapes
 **Stuffing Overhead** - \#stuffed bits / \#og bits
 **Stuffing Efficiency** - Probability of stuff = \#flags / \#bit combs/patterns
-**CRC32 Mod2 Div** - shift left by `len(gen)-1` then long divide generator, xor only for leading 1s, if leading 0 -> move right until leading 1 ![[Pasted image 20241024133846.png]]
-	![[Pasted image 20241008154152.png]]
+**CRC32 Mod2 Div** - shift left by `len(gen)-1` then long divide generator, xor only for leading 1s, if leading 0 -> move right until leading 1 ![[Pasted image 20241024133846.png|300]]
+	![[Pasted image 20241008154152.png|300]]
 **Band Invariance** - sender and receiver will alway be within $x+1$ packet ids of each other.
 	Receiver state is id of packet waiting to receive, ack is id of receiver state
-	Sender state updates with ack ![[Pasted image 20241024123220.png]]
+	Sender state updates with ack ![[Pasted image 20241024123220.png|300]]
 **Throughput (bits/s)** - jobs/s (usually round trip)
 **Latency (s)** - worst case time to complete 1 job
 **1-way propagation delay (s)** - time for transmitted bit to cross link
@@ -62,13 +62,13 @@ layout: note
 	alternating bit - mod 2
 	go back W - mod W+1
 	selective reject - mod 2W
-	![[Pasted image 20241010152206.png]]
+	![[Pasted image 20241010152206.png|300]]
 **Restart Signal** - requires ids to mitigate multi restart
 	usually uses max frame time timer then restart - issue is must wait for timer so longer time to reboot
 
 ### LAN
 **Ethernet** - multi-access many-to-many, demux via MAC addr
-	![[Pasted image 20241015152914.png]]
+	![[Pasted image 20241015152914.png|300]]
 **Strict Multiplexing (B/N)** - allocate static bandwidth via TDM/FDM
 **Stat. Mux.(B/x s.t. x < N)** - allocate bandwidth based on traffic
 	allows clients to use others' bandwidth when low traffic
@@ -105,6 +105,6 @@ layout: note
 **Flood** - Forward to all stations on line, picked up by correct MAC
 **Filtering** - filter packets by ether header for forward or buffer
 **Bridge Spanning Tree Algo** - bridge ids, drop longer links to same LANs
-	![[Pasted image 20241017152640.png]]
+	![[Pasted image 20241017152640.png|300]]
 
 

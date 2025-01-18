@@ -8,7 +8,6 @@ title: 04 - LAN
 
 layout: note
 parent: CS 118
-
 ---
 
 ## LAN
@@ -37,7 +36,7 @@ parent: CS 118
 
 - ethernet predecessor - multiple ground stations across Hawaii
 - problem - no collision detection when traffic was high -> similar problems in wireless 802.11
-- sol - slotted aloha, allocate bandwidth and reduce collision period by half but require shared clock![[Pasted image 20241015144614.png]]
+- sol - slotted aloha, allocate bandwidth and reduce collision period by half but require shared clock![[Pasted image 20241015144614.png|300]]
 
 ## CSMA/CD & Ethernet
 
@@ -60,10 +59,11 @@ Bob Metcalfe - inventor of Ethernet at Xerox PARC and CSMA/CD for Harvard PhD th
 ### Packet Size dependence
 
 - ethernet enforces minimum packet size of 64 bytes for CD
-- without min packet size - no retransmission ![[Pasted image 20241015145823.png]]
-- with limited packet size ![[Pasted image 20241015145839.png]]
+- without min packet size - no retransmission ![[Pasted image 20241015145823.png|300]]
+- with limited packet size ![[Pasted image 20241015145839.png|300]]
 - the min-size of the packet depends on the pipe size = transmission rate $\times$ round trip prop delay
-  - e.g., if R = 10Mbit/s, RTPD = 25.6$\mu$s; then pipe size = 512 bits = 64 bytes
+  - e.g., if R = 10Mbit/s, One way PD = 25.6$\mu$s; then pipe size = 512 bits = 64 bytes
+  - pipe size (bandwidth-delay product, B) = transmission rate (B/s) $\times$ round-trip propagation delay (s)
 
 ### Collision Detection
 
@@ -78,7 +78,7 @@ Bob Metcalfe - inventor of Ethernet at Xerox PARC and CSMA/CD for Harvard PhD th
   - slot time - 2T, where T is 1-way prop delay, limited to 51.2$\mu s$ to allow 64 byte pipe size
   - min packet size - 64 bytes to avoid transmision end before CD
   - jam - transmit smal number of bits after CD to ensure other tranmitterss also detect collision
-    - ![[Pasted image 20241015153010.png]]
+    - ![[Pasted image 20241015153010.png|300]]
   - CD - one option is use Manchester encoding averge voltage, e.g. 0 (0V) or 1 (1.5V) has avg 0.75V, collision => average 1.5V
 
 ## Ethernet Details
@@ -88,13 +88,13 @@ Bob Metcalfe - inventor of Ethernet at Xerox PARC and CSMA/CD for Harvard PhD th
 - slot time - 2T, where T is 1-way prop delay, limited to 51.2$\mu s$ to allow 64 byte pipe size
 - min packet size - 64 bytes to avoid transmision end before CD
 - jam - transmit smal number of bits after CD to ensure other tranmitterss also detect collision
-  - ![[Pasted image 20241015153010.png]]
+  - ![[Pasted image 20241015153010.png|300]]
 - CD - one option is use Manchester encoding averge voltage, e.g. 0 (0V) or 1 (1.5V) has avg 0.75V, collision => average 1.5V
 
 ### Header
 
 - dest for mux, source for mux ack, length in case frame is smaller than min packet size, CRC - error detection hash
-  ![[Pasted image 20241015152914.png]]
+  ![[Pasted image 20241015152914.png|300]]
 
 ### Hardware
 
@@ -108,4 +108,4 @@ Bob Metcalfe - inventor of Ethernet at Xerox PARC and CSMA/CD for Harvard PhD th
 - Gigabit ether has 2m extent -> switches, hubs, point to point
 - therefore, cost of stat mux is why ethernet is limited to LAN
 - so modern day shift from mainline ethernet to series of point to point switches but keep ethernet header
-- CSMA/CD to Switches ![[Pasted image 20241015153510.png]]
+- CSMA/CD to Switches ![[Pasted image 20241015153510.png|300]]

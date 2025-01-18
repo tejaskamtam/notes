@@ -33,7 +33,7 @@ parent: CS 118
 
 ### Ethernet hub limitation on bandwidth and distance
 
-- suppose multiple stations and 2 separate LANs/ethernets, how to interconnect ethernets and double bandwidth, distance, and stations ![[Pasted image 20241017143358.png]]
+- suppose multiple stations and 2 separate LANs/ethernets, how to interconnect ethernets and double bandwidth, distance, and stations ![[Pasted image 20241017143358.png|300]]
 - cant use routers because routers at the time (1980s) were dependent on protocol: Xerox or Dack?
 - using a brige/switch that buffers data, if the hub doesn't know the dest mac, just **flood** it and send to all stations on eth2 -> doubles distance and stations but not bandwith
 - instead, have a DB for mac addrs and switch port ids (eth1 or eth2 line in/out) -> build the DB on the switch using frames src and dest macs and eth line id then you can know where the data is going and whether its going up or down (like defaultdict)
@@ -43,7 +43,7 @@ parent: CS 118
   - only condition is non-cyclic topology -> any tree topology is ok
     - concurrency is not an issue because frames are buffered, so switches wait if there is data on the line with the same mac dest as the buffered data (e.g., multiple switches on a shared ether)
   - timer for buffering, if timer expires, flood -> something on the order of 10 mins
-  - code ![[Pasted image 20241017145526.png]]
+  - code ![[Pasted image 20241017145526.png|300]]
 
 ### Terms
 
@@ -54,11 +54,11 @@ parent: CS 118
 
 ### Design
 
-![[Pasted image 20241017151145.png]]
+![[Pasted image 20241017151145.png|300]]
 
 ### Routing - Spanning Tree
 
-![[Pasted image 20241017152640.png]]
+![[Pasted image 20241017152640.png|300]]
 
 - every bridge enables parent port and
 

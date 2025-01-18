@@ -8,7 +8,6 @@ title: 00 - Fundamentals
 
 layout: note
 parent: CS 118
-
 ---
 
 ## Basic Definitions
@@ -23,7 +22,7 @@ parent: CS 118
 
 ## Internet Protocol Stack
 
-![[Pasted image 20240402091152.png]]
+![[Pasted image 20240402091152.png|300]]
 
 ### Application View
 
@@ -69,7 +68,7 @@ parent: CS 118
 
 #### Delay in packet-switched networks
 
-- 4 sources ![[Pasted image 20240404082522.png]]
+- 4 sources ![[Pasted image 20240404082522.png|300]]
   - node processing - error checking, tag checking (usually inconsequential with todays technology)
   - transmission delay - length/rate : R=link bandwidth (bits/sec), L=packet length (bits)
   - queuing delay - # packets in queue $\times$ transmission time of each packet
@@ -77,10 +76,9 @@ parent: CS 118
 
 ### Store-and-Forward
 
-- entire packet must arrive at router before it can be transmitted to next hop, so we need to store the bits received so far ![[Pasted image 20240404085331.png]]
+- entire packet must arrive at router before it can be transmitted to next hop, so we need to store the bits received so far ![[Pasted image 20240404085331.png|300]]
 
 ## Layer Overview
 
-- handshakes on multiple levels ![[Pasted image 20240404091919.png]]
-- data is encompassed with tags/heads/tails on multiple levels ![[Pasted image 20240404092018.png]]
-
+- handshakes on multiple levels ![[Pasted image 20240404091919.png|300]]
+- data is encompassed with tags/heads/tails on multiple levels ![[Pasted image 20240404092018.png|300]]
