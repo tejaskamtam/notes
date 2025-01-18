@@ -1,10 +1,7 @@
 ---
-title: Homework 3
 area: ucla
 created: 2024-49-13
 course: CS 118
-parent: 
-layout: note
 ---
 ### Tejas Kamtam
 ### 305749402

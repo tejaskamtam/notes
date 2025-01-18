@@ -1,10 +1,7 @@
 ---
-title: Homework 4
 area: ucla
 created: 2024-11-29
 course: CS M148
-parent: 
-layout: note
 ---
 ### Tejas Kamtam
 ### 305749402
