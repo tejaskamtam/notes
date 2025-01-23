@@ -3,7 +3,7 @@ title: 00 Disclaimer
 created: 2025-01-15
 layout: blog
 parent: blog
-comments: "false"
+comments: true
 ---
 > "Trust those who seek truth; doubt those who say they've found it." –André Gide
 
